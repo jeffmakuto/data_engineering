@@ -1,0 +1,26 @@
+% Pandoc header for modern PDF styling with xelatex
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+% Main font (uses system fonts via xelatex)
+\setmainfont{Segoe UI}
+
+% Colors
+\definecolor{linkcol}{HTML}{2563EB}
+\definecolor{muted}{HTML}{64748B}
+
+% Hyperref (link colors)
+\hypersetup{colorlinks=true, urlcolor=linkcol, linkcolor=linkcol}
+
+% Section title spacing and appearance
+\titleformat{\section}{\Large\bfseries\color{black}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{black}}{\thesubsection}{1em}{}
+
+% Footer with page numbers
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\small\color{muted}{\thepage}}
+\renewcommand{\headrulewidth}{0pt}

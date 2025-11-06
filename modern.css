@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/* Page sizing and margins */
+@page { 
+  size: A4; 
+  margin: 20mm 18mm 20mm 18mm;
+}
+
+html, body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: #0f172a; /* slate-900 */
+  background: white;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 36px 24px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin: 0 0 0.6rem 0;
+  font-weight: 700;
+  color: #0b1220;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 1.6rem 0 0.6rem 0;
+  font-weight: 600;
+  color: #0b1220;
+}
+
+h3 { 
+  font-size: 1.2rem;
+  margin: 1.2rem 0 0.4rem 0;
+  font-weight: 600;
+}
+
+p { margin: 0 0 1rem 0; }
+
+hr { border: none; height: 1px; background: linear-gradient(90deg,#e6edf3,#f8fafc); margin: 1.5rem 0; }
+
+a { color: #2563eb; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Code blocks and inline code */
+code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Courier New', monospace; }
+code { background: #f1f5f9; padding: 0.06em 0.35em; border-radius: 6px; font-size: 0.95em; }
+pre { background: #0b1220; color: #e6eef7; padding: 1rem; border-radius: 8px; overflow: auto; }
+
+/* Blockquote */
+blockquote { border-left: 4px solid #e2e8f0; padding-left: 16px; color: #0f172a; background: #fbfdff; margin: 1rem 0; border-radius: 4px; }
+
+/* Tables */
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+th, td { border: 1px solid #e6edf3; padding: 0.6rem 0.75rem; text-align: left; }
+th { background: #f8fafc; font-weight: 600; }
+
+/* Images */
+img { max-width: 100%; height: auto; display: block; margin: 0.75rem 0; }
+
+/* Footer for page numbers (works in some PDF renderers) */
+@page {
+  @bottom-right {
+    content: "" counter(page) " / " counter(pages);
+    font-size: 10px;
+    color: #94a3b8;
+  }
+}
+
+/* Small print */
+.small { font-size: 0.85rem; color: #64748b; }
+
+/* Make tables and pre blocks fit nicely */
+table, pre { break-inside: avoid; }
+
+/* Mobile-friendly widths when viewing HTML */
+@media (max-width: 800px) {
+  body { padding: 18px; }
+}
