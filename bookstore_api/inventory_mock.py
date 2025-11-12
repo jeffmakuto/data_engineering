@@ -1,58 +1,62 @@
+"""Modern, typed in-memory inventory mock.
+
+This module uses simple dataclasses and type hints for clearer structure
+and easier maintenance. Data remains in-memory for the demo.
 """
-Simple in-memory Inventory mock service.
-Provides functions to get book details and reserve stock.
-"""
+from __future__ import annotations
+from dataclasses import dataclass, asdict
+from typing import Dict, List, Optional
 from copy import deepcopy
+from threading import Lock
 
-# Sample inventory keyed by ISBN
-_inventory = {
-    '9780143127550': {
-        'isbn': '9780143127550',
-        'title': 'The Martian',
-        'author': 'Andy Weir',
-        'price': 12.99,
-        'stock': 10
-    },
-    '9780262033848': {
-        'isbn': '9780262033848',
-        'title': 'Introduction to Algorithms',
-        'author': 'Cormen et al.',
-        'price': 89.99,
-        'stock': 3
-    },
-    '9780140449136': {
-        'isbn': '9780140449136',
-        'title': 'The Odyssey',
-        'author': 'Homer',
-        'price': 9.5,
-        'stock': 25
-    }
+
+@dataclass
+class Book:
+    isbn: str
+    title: str
+    author: str
+    price: float
+    stock: int
+
+
+# internal storage and lock for thread-safety
+_inventory: Dict[str, Book] = {
+    '9780143127550': Book('9780143127550', 'The Martian', 'Andy Weir', 12.99, 10),
+    '9780262033848': Book('9780262033848', 'Introduction to Algorithms', 'Cormen et al.', 89.99, 3),
+    '9780140449136': Book('9780140449136', 'The Odyssey', 'Homer', 9.50, 25),
 }
+_lock = Lock()
 
 
-def get_book(isbn):
-    book = _inventory.get(isbn)
-    return deepcopy(book) if book else None
+def get_book(isbn: str) -> Optional[dict]:
+    with _lock:
+        b = _inventory.get(isbn)
+        return deepcopy(asdict(b)) if b else None
 
 
-def reserve_stock(isbn, qty):
-    """Attempt to reserve qty units of isbn. Returns True if successful, False otherwise."""
-    book = _inventory.get(isbn)
-    if not book:
-        return False, 'Book not found'
-    if book['stock'] < qty:
-        return False, 'Insufficient stock'
-    book['stock'] -= qty
-    return True, None
+def reserve_stock(isbn: str, qty: int) -> tuple[bool, Optional[str]]:
+    """Reserve `qty` units of `isbn`. Returns (success, error_message).
+    Thread-safe and atomic for the in-memory store.
+    """
+    with _lock:
+        b = _inventory.get(isbn)
+        if not b:
+            return False, 'Book not found'
+        if b.stock < qty:
+            return False, 'Insufficient stock'
+        b.stock -= qty
+        return True, None
 
 
-def replenish_stock(isbn, qty):
-    book = _inventory.get(isbn)
-    if not book:
-        return False
-    book['stock'] += qty
-    return True
+def replenish_stock(isbn: str, qty: int) -> bool:
+    with _lock:
+        b = _inventory.get(isbn)
+        if not b:
+            return False
+        b.stock += qty
+        return True
 
 
-def list_inventory():
-    return deepcopy(list(_inventory.values()))
+def list_inventory() -> List[dict]:
+    with _lock:
+        return deepcopy([asdict(b) for b in _inventory.values()])

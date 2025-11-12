@@ -2,21 +2,21 @@ import os
 import json
 import pytest
 
-from app import create_app
+from fastapi.testclient import TestClient
+from app import app
 
 API_KEY = 'secret123'
 
+
 @pytest.fixture
 def client():
-    app = create_app()
-    app.config['TESTING'] = True
-    client = app.test_client()
+    client = TestClient(app)
     yield client
 
 def test_get_book_success(client):
     r = client.get('/api/books/9780143127550', headers={'X-API-Key': API_KEY})
     assert r.status_code == 200
-    data = r.get_json()
+    data = r.json()
     assert data['isbn'] == '9780143127550'
 
 def test_get_book_not_found(client):
@@ -32,7 +32,7 @@ def test_place_order_and_delivery_flow(client):
     }
     r = client.post('/api/orders/', json=payload, headers={'X-API-Key': API_KEY})
     assert r.status_code == 201
-    body = r.get_json()
+    body = r.json()
     assert 'order_id' in body
     order_id = body['order_id']
 
@@ -40,7 +40,7 @@ def test_place_order_and_delivery_flow(client):
     d_payload = {'order_id': order_id, 'address': '123 Main St'}
     rd = client.post('/api/delivery/', json=d_payload, headers={'X-API-Key': API_KEY})
     assert rd.status_code == 201
-    delivery = rd.get_json()
+    delivery = rd.json()
     assert delivery['order_id'] == order_id
 
 def test_auth_required(client):
