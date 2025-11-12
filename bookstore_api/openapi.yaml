@@ -1,0 +1,147 @@
+openapi: 3.0.3
+info:
+  title: Bookstore Management API
+  version: 1.0.0
+  description: API for integrating Inventory, Sales and Delivery subsystems (demo)
+servers:
+  - url: http://localhost:5001
+paths:
+  /api/books/{isbn}:
+    get:
+      summary: Retrieve book details
+      parameters:
+        - name: isbn
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Book found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Book'
+        '404':
+          description: Book not found
+  /api/books:
+    get:
+      summary: List inventory
+      responses:
+        '200':
+          description: Inventory list
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Book'
+  /api/orders:
+    post:
+      summary: Place a new order
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OrderRequest'
+      responses:
+        '201':
+          description: Order created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderResponse'
+        '400':
+          description: Bad request
+        '402':
+          description: Payment required / failed
+        '409':
+          description: Inventory conflict
+  /api/orders/{order_id}:
+    get:
+      summary: Get order details
+      parameters:
+        - name: order_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Order found
+  /api/delivery:
+    post:
+      summary: Create delivery task for an order
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DeliveryRequest'
+      responses:
+        '201':
+          description: Delivery scheduled
+components:
+  schemas:
+    Book:
+      type: object
+      properties:
+        isbn:
+          type: string
+        title:
+          type: string
+        author:
+          type: string
+        price:
+          type: number
+          format: float
+        stock:
+          type: integer
+    OrderItem:
+      type: object
+      properties:
+        isbn:
+          type: string
+        quantity:
+          type: integer
+    OrderRequest:
+      type: object
+      required: [customer_id, items, payment]
+      properties:
+        customer_id:
+          type: string
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/OrderItem'
+        payment:
+          type: object
+          description: Payment details (demo only)
+    OrderResponse:
+      type: object
+      properties:
+        order_id:
+          type: string
+        status:
+          type: string
+        total:
+          type: number
+    DeliveryRequest:
+      type: object
+      required: [order_id, address]
+      properties:
+        order_id:
+          type: string
+        address:
+          type: string
+        courier:
+          type: string
+security:
+  - ApiKeyAuth: []
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
