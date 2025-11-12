@@ -26,5 +26,3 @@ Ask from leadership
 - Access to SIS and HR system credentials for CDC or API integration
 - Small pilot budget for 3 months (2–3 engineers + steward)
 
-Contact / next steps
-- I'll produce the ER diagram, SQL DDLs and a short PoC plan with connector examples on request.
