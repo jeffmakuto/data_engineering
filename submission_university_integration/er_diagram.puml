@@ -1,0 +1,77 @@
+@startuml
+' PlantUML ER diagram for canonical university model
+hide circle
+skinparam linetype ortho
+
+entity Student {
+  * student_id : UUID
+  --
+  sis_student_number : TEXT
+  national_id : TEXT
+  first_name : TEXT
+  last_name : TEXT
+  dob : DATE
+  primary_email : TEXT
+}
+
+entity Faculty {
+  * faculty_id : UUID
+  --
+  hr_employee_id : TEXT
+  first_name : TEXT
+  last_name : TEXT
+  title : TEXT
+  primary_email : TEXT
+}
+
+entity Department {
+  * department_id : UUID
+  --
+  code : TEXT
+  name : TEXT
+}
+
+entity Course {
+  * course_id : UUID
+  --
+  course_code : TEXT
+  title : TEXT
+  credits : NUMERIC
+}
+
+entity Section {
+  * section_id : UUID
+  --
+  term : TEXT
+  year : INT
+  capacity : INT
+  instructor_faculty_id : UUID
+}
+
+entity Enrollment {
+  * enrollment_id : UUID
+  --
+  enrollment_status : TEXT
+  grade : TEXT
+}
+
+entity LibraryRecord {
+  * record_id : UUID
+  --
+  borrower_id : UUID
+  borrower_type : TEXT
+  item_id : TEXT
+}
+
+' relationships
+Student ||--o{ Enrollment : "has"
+Section ||--o{ Enrollment : "contains"
+Course ||--o{ Section : "offers"
+Faculty ||--o{ Section : "teaches"
+Department ||--o{ Course : "owns"
+
+' Borrower mapping
+Student ||--o{ LibraryRecord : "borrows"
+Faculty ||--o{ LibraryRecord : "borrows"
+
+@enduml
