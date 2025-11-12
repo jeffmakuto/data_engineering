@@ -1,0 +1,41 @@
+@startuml
+' Simple ER diagram for integrated schema
+entity customers {
+  * customer_id : INTEGER
+  --
+  full_name : TEXT
+  address_street : TEXT
+  address_city : TEXT
+  email : TEXT
+}
+
+entity products {
+  * product_id : INTEGER
+  --
+  product_name : TEXT
+  price : REAL
+  stock : INTEGER
+}
+
+entity orders {
+  * order_id : INTEGER
+  --
+  customer_id : INTEGER
+  order_date : TEXT
+  total : REAL
+}
+
+entity order_items {
+  * order_item_id : INTEGER
+  --
+  order_id : INTEGER
+  product_id : INTEGER
+  quantity : INTEGER
+  unit_price : REAL
+  line_total : REAL
+}
+
+customers ||--o{ orders : places
+orders ||--o{ order_items : contains
+products ||--o{ order_items : referenced_by
+@enduml
