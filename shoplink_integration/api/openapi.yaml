@@ -1,0 +1,76 @@
+openapi: 3.0.3
+info:
+  title: ShopLink Integration API
+  version: 1.0.0
+servers:
+  - url: https://api.shoplink.local
+paths:
+  /orders:
+    post:
+      summary: Create a new order
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Order'
+      responses:
+        '201':
+          description: Order created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderResponse'
+  /inventory/{sku}:
+    get:
+      summary: Get inventory for SKU
+      parameters:
+        - name: sku
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Inventory levels
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Inventory'
+components:
+  schemas:
+    Order:
+      type: object
+      properties:
+        customer_id:
+          type: string
+        items:
+          type: array
+          items:
+            type: object
+            properties:
+              sku:
+                type: string
+              quantity:
+                type: integer
+    OrderResponse:
+      type: object
+      properties:
+        order_id:
+          type: string
+        status:
+          type: string
+    Inventory:
+      type: object
+      properties:
+        sku:
+          type: string
+        locations:
+          type: array
+          items:
+            type: object
+            properties:
+              location_id:
+                type: string
+              quantity:
+                type: integer

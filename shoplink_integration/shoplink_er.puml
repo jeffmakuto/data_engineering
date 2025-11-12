@@ -1,0 +1,64 @@
+@startuml
+' ER diagram for ShopLink canonical model
+hide circle
+skinparam linetype ortho
+
+entity Customer {
+  * customer_id : UUID
+  --
+  loyalty_id : TEXT
+  name : TEXT
+  email : TEXT
+  phone : TEXT
+  address : TEXT
+}
+
+entity Product {
+  * product_id : UUID
+  --
+  sku : TEXT
+  name : TEXT
+  price : DECIMAL
+}
+
+entity Inventory {
+  * inventory_id : UUID
+  --
+  product_id : UUID
+  location_id : UUID
+  quantity : INTEGER
+}
+
+entity "Order" as Ord {
+  * order_id : UUID
+  --
+  customer_id : UUID
+  order_date : TIMESTAMP
+  status : TEXT
+  total : DECIMAL
+}
+
+entity OrderItem {
+  * order_item_id : UUID
+  --
+  order_id : UUID
+  product_id : UUID
+  quantity : INTEGER
+  unit_price : DECIMAL
+}
+
+entity Location {
+  * location_id : UUID
+  --
+  name : TEXT
+  type : TEXT
+}
+
+Customer ||--o{ Ord : "places"
+Ord ||--o{ OrderItem : "contains"
+Product ||--o{ OrderItem : "referenced_by"
+Product ||--o{ Inventory : "stocked_in"
+Location ||--o{ Inventory : "holds"
+Customer ||--o{ OrderItem : "-- (record of purchases)"
+
+@enduml

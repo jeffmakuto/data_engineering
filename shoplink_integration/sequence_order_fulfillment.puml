@@ -1,0 +1,25 @@
+@startuml
+actor Customer
+participant Magento as "E-Commerce (Magento)"
+participant OrderSvc as "Order Orchestration Service"
+participant Kafka as "Event Bus (Kafka)"
+participant InventorySvc as "Inventory Service"
+participant POS as "Point of Sale (Store)"
+participant ERP as "ERP (Financials)"
+participant Fulfillment as "Fulfillment Service"
+
+Customer -> Magento: Place Order
+Magento -> OrderSvc: POST /orders (order payload)
+OrderSvc -> Kafka: publish order.created
+Kafka -> InventorySvc: order.created event (consume)
+InventorySvc -> InventoryDB: reserve stock
+InventorySvc -> Kafka: publish inventory.reserved / inventory.updated
+Kafka -> POS: inventory.updated (stores sync)
+OrderSvc -> ERP: post financial document (invoice)
+ERP -> OrderSvc: acknowledge
+OrderSvc -> Fulfillment: create fulfillment task
+Fulfillment -> Kafka: publish fulfillment.shipped
+OrderSvc -> Magento: update order status
+Magento -> Customer: order confirmation
+
+@enduml
