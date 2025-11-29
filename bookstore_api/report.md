@@ -1,50 +1,73 @@
-# Bookstore API — Design & Implementation Report
+# Bookstore API — Design & Implementation
 
-## Overview
-This project implements a small RESTful API that integrates three mock subsystems common to a bookstore: Inventory, Sales, and Delivery. The service is intended as a demonstration of integration patterns, simple authentication, API documentation (Swagger), and basic tests.
+## Executive summary
+This repository contains a lightweight, production-minded demonstration API for a bookstore. It integrates three clear, typed subsystems (Inventory, Sales, Delivery) and exposes a small set of HTTP endpoints for listing books, placing orders, and scheduling deliveries.
 
-## Architecture and Design
-- Framework: Flask with `flask-restx` to provide REST endpoints and automatic Swagger UI.
-- Subsystems: implemented as separate in-memory modules:
-  - `inventory_mock.py` — manages book data and stock levels.
-  - `sales_mock.py` — simulates payment processing and order persistence.
-  - `delivery_mock.py` — creates delivery tasks and updates status.
-- API endpoints:
+Key design goals:
+- Practical, testable code that resembles production patterns.
+- Clear API contract (OpenAPI) and interactive docs.
+- Minimal external dependencies and reproducible development experience.
+
+
+## Architecture and design (modernized)
+- Framework: FastAPI — type-first, async-ready, and auto-generates OpenAPI/Swagger UI.
+- Subsystems: modular in-memory services implemented with dataclasses and typed APIs:
+  - `inventory_mock.py` — typed Book dataclass, thread-safe in-memory store.
+  - `sales_mock.py` — typed Order dataclass, simple payment simulation, thread-safe store.
+  - `delivery_mock.py` — typed Delivery dataclass and scheduling.
+- Endpoints (same semantics as before):
   - `GET /api/books/{isbn}` — fetch book details.
   - `GET /api/books` — list inventory.
   - `POST /api/orders` — place an order (validates items, processes payment, reserves stock, creates order).
   - `GET /api/orders/{order_id}` — fetch order details.
   - `POST /api/delivery` — schedule a delivery for an order.
-- Authentication: API key required via `X-API-Key` header. For demo purposes the default key is `secret123`.
-- Data exchange: JSON request/response.
-- Documentation: `openapi.yaml` (OpenAPI 3.0 spec) and Swagger UI served at `/docs` when running the app.
+- Authentication: API key via the `X-API-Key` header (demo secret `secret123`). For production, switch to OAuth2/JWT and secrets management.
 
-## Implementation Notes
-- Inventory reservation is performed after payment succeeds; in a production system you'd likely reserve first and use two-phase commit or compensation transactions.
-- The sales mock returns a UUID transaction id when payment is simulated as successful.
-- The order payload expects `customer_id`, a list of `{ isbn, quantity }`, and a `payment` object that contains minimal card fields for simulation.
+
+## Implementation notes (developer-focused)
+- Input validation is handled by Pydantic models; the server surface is strongly typed which improves both dev UX and runtime safety.
+- Inventory reservation and order creation are done atomically within the in-memory store (protected by locks) for the demo. In production, move this to a durable database and consider optimistic locking or transactional patterns.
+- The payment flow is intentionally simplified — `sales_mock.process_payment` simulates approval and returns a UUID transaction id. Swap with a real gateway for production.
+
 
 ## Testing
-- Unit tests are located in `tests/test_api.py` and use Flask's test client to exercise endpoints.
-- Because local pytest environments can have plugin conflicts, the `run_tests.ps1` helper ensures plugins are not auto-loaded during test execution.
-- Test highlights:
-  - GET book success and not-found cases.
-  - End-to-end order placement flow including payment and inventory reservation.
-  - Delivery scheduling follow-up for created orders.
+- Tests are in `tests/test_api.py` and use FastAPI's `TestClient` (Starlette) for end-to-end-style unit tests.
+- The test suite covers:
+  - Authentication enforcement.
+  - Book retrieval and not-found behavior.
+  - Order placement with payment and inventory reservation.
+  - Delivery scheduling for created orders.
 
-## Security and Limitations
-- The demo uses an API key for simplicity. For production use OAuth2/JWT and proper secrets management.
-- Payment processing is mocked. Replace `sales_mock.process_payment` with a PCI-compliant gateway integration for real payments.
-- State is in-memory: orders, inventory changes, and delivery tasks are not persisted beyond process lifetime.
 
-## How to run
-1. Create a virtual environment and install dependencies from `requirements.txt`.
-2. Start the API: `python app.py` (ensure `BOOKSTORE_API_KEY` is set to match client requests).
-3. Use Swagger UI at `http://localhost:5001/docs` or curl/Postman to exercise endpoints.
+## Security and limitations
+- The project is a demo: do not use the in-memory stores for production workloads.
+- No PCI compliance or real payment handling is implemented — treat `sales_mock` as a placeholder.
 
-## Next steps and improvements
-- Persist data to a database (Postgres/SQLite) and add migrations.
-- Implement idempotency keys for order creation to handle retries safely.
-- Add asynchronous background tasks for delivery processing and payment webhooks.
-- Harden authentication and add role-based access control.
+
+## How to run (developer)
+1. Create and activate a Python virtual environment.
+
+   PowerShell:
+   ```powershell
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   python -m pip install --upgrade pip
+   python -m pip install -r requirements.txt
+   ```
+
+2. Start the API locally:
+
+   ```powershell
+   uvicorn app:app --reload --port 5001
+   ```
+
+3. Open interactive docs at `http://127.0.0.1:5001/docs`.
+
+
+## Next steps and production-readiness
+- Persist state to a relational database with migrations (Alembic) and add integration tests.
+- Introduce idempotency keys and durable message queues for asynchronous processing.
+- Add structured logging, metrics (Prometheus), and health endpoints.
+- Containerize the app (Dockerfile) for reproducible CI/CD and local runs.
+
 
