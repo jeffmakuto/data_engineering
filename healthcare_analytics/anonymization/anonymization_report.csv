@@ -1,0 +1,6 @@
+technique,method,privacy_level,data_utility,k_achieved,l_achieved,violation_count,epsilon
+Pseudonymization,SHA-256 hashing,High,High - preserves all other attributes,,,,
+Generalization,k-anonymity (k=5),Medium-High,Medium - some precision lost,True,,,
+L-Diversity,l=2 for ailment,High,Medium,,True,0.0,
+Data Masking,Categorical masking and suppression,High,Medium-High,,,,
+Differential Privacy,Laplace mechanism (ε=1.0),Very High,Medium - suitable for aggregates,,,,1.0

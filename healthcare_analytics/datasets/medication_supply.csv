@@ -1,0 +1,901 @@
+clinic_name,month,medication_name,category,opening_stock,quantity_received,quantity_consumed,closing_stock,stock_out_days,expiry_soon
+Central County Hospital,2024-06,Artemether-Lumefantrine,Malaria,7500,1440,2416,6524,0,No
+Central County Hospital,2024-06,Quinine,Malaria,3000,540,954,2586,0,No
+Central County Hospital,2024-06,Amoxicillin,Infections,12000,2160,1997,12163,0,No
+Central County Hospital,2024-06,Paracetamol,General,22500,4500,4030,22970,0,No
+Central County Hospital,2024-06,Ibuprofen,General,15000,2700,2428,15272,0,No
+Central County Hospital,2024-06,ORS Sachets,Diarrhea,7500,1620,2567,6553,0,No
+Central County Hospital,2024-06,Metronidazole,Infections,4500,900,613,4787,0,No
+Central County Hospital,2024-06,Amlodipine,Hypertension,6000,1080,734,6346,0,Yes
+Central County Hospital,2024-06,Metformin,Diabetes,5250,990,965,5275,0,No
+Central County Hospital,2024-06,Ciprofloxacin,Typhoid,3750,720,497,3973,0,No
+Central County Hospital,2024-06,Azithromycin,Respiratory,4500,810,830,4480,0,No
+Central County Hospital,2024-06,Salbutamol Inhaler,Asthma,2250,450,425,2275,0,No
+Central County Hospital,2024-06,Hydrocortisone Cream,Skin,3000,630,602,3028,0,No
+Central County Hospital,2024-06,Diclofenac,Arthritis,3750,720,581,3889,0,No
+Central County Hospital,2024-06,Ambroxol Syrup,Respiratory,4500,900,1259,4141,0,No
+Eastside Health Center,2024-06,Artemether-Lumefantrine,Malaria,5000,960,1524,4436,0,No
+Eastside Health Center,2024-06,Quinine,Malaria,2000,360,635,1725,0,No
+Eastside Health Center,2024-06,Amoxicillin,Infections,8000,1440,1349,8091,0,No
+Eastside Health Center,2024-06,Paracetamol,General,15000,3000,2886,15114,0,No
+Eastside Health Center,2024-06,Ibuprofen,General,10000,1800,1426,10374,0,No
+Eastside Health Center,2024-06,ORS Sachets,Diarrhea,5000,1080,1542,4538,0,No
+Eastside Health Center,2024-06,Metronidazole,Infections,3000,600,430,3170,0,No
+Eastside Health Center,2024-06,Amlodipine,Hypertension,4000,720,584,4136,0,No
+Eastside Health Center,2024-06,Metformin,Diabetes,3500,660,508,3652,0,No
+Eastside Health Center,2024-06,Ciprofloxacin,Typhoid,2500,480,429,2551,0,No
+Eastside Health Center,2024-06,Azithromycin,Respiratory,3000,540,604,2936,0,No
+Eastside Health Center,2024-06,Salbutamol Inhaler,Asthma,1500,300,238,1562,0,No
+Eastside Health Center,2024-06,Hydrocortisone Cream,Skin,2000,420,400,2020,0,No
+Eastside Health Center,2024-06,Diclofenac,Arthritis,2500,480,325,2655,0,No
+Eastside Health Center,2024-06,Ambroxol Syrup,Respiratory,3000,600,687,2913,0,No
+Westgate Clinic,2024-06,Artemether-Lumefantrine,Malaria,5000,960,1651,4309,0,No
+Westgate Clinic,2024-06,Quinine,Malaria,2000,360,586,1774,0,No
+Westgate Clinic,2024-06,Amoxicillin,Infections,8000,1440,1297,8143,0,No
+Westgate Clinic,2024-06,Paracetamol,General,15000,3000,2068,15932,0,No
+Westgate Clinic,2024-06,Ibuprofen,General,10000,1800,1493,10307,0,No
+Westgate Clinic,2024-06,ORS Sachets,Diarrhea,5000,1080,1736,4344,0,No
+Westgate Clinic,2024-06,Metronidazole,Infections,3000,600,408,3192,0,No
+Westgate Clinic,2024-06,Amlodipine,Hypertension,4000,720,674,4046,0,No
+Westgate Clinic,2024-06,Metformin,Diabetes,3500,660,580,3580,0,No
+Westgate Clinic,2024-06,Ciprofloxacin,Typhoid,2500,480,380,2600,0,No
+Westgate Clinic,2024-06,Azithromycin,Respiratory,3000,540,596,2944,0,No
+Westgate Clinic,2024-06,Salbutamol Inhaler,Asthma,1500,300,251,1549,0,No
+Westgate Clinic,2024-06,Hydrocortisone Cream,Skin,2000,420,391,2029,0,No
+Westgate Clinic,2024-06,Diclofenac,Arthritis,2500,480,344,2636,0,No
+Westgate Clinic,2024-06,Ambroxol Syrup,Respiratory,3000,600,653,2947,0,No
+Northview Medical Center,2024-06,Artemether-Lumefantrine,Malaria,5000,960,1428,4532,0,Yes
+Northview Medical Center,2024-06,Quinine,Malaria,2000,360,690,1670,0,No
+Northview Medical Center,2024-06,Amoxicillin,Infections,8000,1440,1051,8389,0,No
+Northview Medical Center,2024-06,Paracetamol,General,15000,3000,2187,15813,0,No
+Northview Medical Center,2024-06,Ibuprofen,General,10000,1800,1250,10550,0,No
+Northview Medical Center,2024-06,ORS Sachets,Diarrhea,5000,1080,1650,4430,0,No
+Northview Medical Center,2024-06,Metronidazole,Infections,3000,600,452,3148,0,No
+Northview Medical Center,2024-06,Amlodipine,Hypertension,4000,720,610,4110,0,No
+Northview Medical Center,2024-06,Metformin,Diabetes,3500,660,625,3535,0,No
+Northview Medical Center,2024-06,Ciprofloxacin,Typhoid,2500,480,464,2516,0,No
+Northview Medical Center,2024-06,Azithromycin,Respiratory,3000,540,642,2898,0,No
+Northview Medical Center,2024-06,Salbutamol Inhaler,Asthma,1500,300,219,1581,0,No
+Northview Medical Center,2024-06,Hydrocortisone Cream,Skin,2000,420,328,2092,0,No
+Northview Medical Center,2024-06,Diclofenac,Arthritis,2500,480,424,2556,0,No
+Northview Medical Center,2024-06,Ambroxol Syrup,Respiratory,3000,600,725,2875,0,No
+Southside Community Clinic,2024-06,Artemether-Lumefantrine,Malaria,5000,960,1906,4054,0,No
+Southside Community Clinic,2024-06,Quinine,Malaria,2000,360,566,1794,0,No
+Southside Community Clinic,2024-06,Amoxicillin,Infections,8000,1440,1352,8088,0,No
+Southside Community Clinic,2024-06,Paracetamol,General,15000,3000,2711,15289,0,No
+Southside Community Clinic,2024-06,Ibuprofen,General,10000,1800,1508,10292,0,Yes
+Southside Community Clinic,2024-06,ORS Sachets,Diarrhea,5000,1080,1692,4388,0,No
+Southside Community Clinic,2024-06,Metronidazole,Infections,3000,600,419,3181,0,No
+Southside Community Clinic,2024-06,Amlodipine,Hypertension,4000,720,689,4031,0,No
+Southside Community Clinic,2024-06,Metformin,Diabetes,3500,660,494,3666,0,No
+Southside Community Clinic,2024-06,Ciprofloxacin,Typhoid,2500,480,397,2583,0,No
+Southside Community Clinic,2024-06,Azithromycin,Respiratory,3000,540,642,2898,0,No
+Southside Community Clinic,2024-06,Salbutamol Inhaler,Asthma,1500,300,207,1593,0,No
+Southside Community Clinic,2024-06,Hydrocortisone Cream,Skin,2000,420,376,2044,0,No
+Southside Community Clinic,2024-06,Diclofenac,Arthritis,2500,480,405,2575,0,No
+Southside Community Clinic,2024-06,Ambroxol Syrup,Respiratory,3000,600,676,2924,0,No
+Rural Health Post A,2024-06,Artemether-Lumefantrine,Malaria,3000,576,821,2755,0,No
+Rural Health Post A,2024-06,Quinine,Malaria,1200,216,365,1051,0,No
+Rural Health Post A,2024-06,Amoxicillin,Infections,4800,864,763,4901,0,No
+Rural Health Post A,2024-06,Paracetamol,General,9000,1800,1482,9318,0,Yes
+Rural Health Post A,2024-06,Ibuprofen,General,6000,1080,860,6220,0,No
+Rural Health Post A,2024-06,ORS Sachets,Diarrhea,3000,648,951,2697,0,No
+Rural Health Post A,2024-06,Metronidazole,Infections,1800,360,335,1825,0,No
+Rural Health Post A,2024-06,Amlodipine,Hypertension,2400,432,335,2497,0,No
+Rural Health Post A,2024-06,Metformin,Diabetes,2100,396,297,2199,0,No
+Rural Health Post A,2024-06,Ciprofloxacin,Typhoid,1500,288,252,1536,0,No
+Rural Health Post A,2024-06,Azithromycin,Respiratory,1800,324,413,1711,0,No
+Rural Health Post A,2024-06,Salbutamol Inhaler,Asthma,900,180,139,941,0,No
+Rural Health Post A,2024-06,Hydrocortisone Cream,Skin,1200,252,233,1219,0,No
+Rural Health Post A,2024-06,Diclofenac,Arthritis,1500,288,218,1570,0,No
+Rural Health Post A,2024-06,Ambroxol Syrup,Respiratory,1800,360,401,1759,0,No
+Rural Health Post B,2024-06,Artemether-Lumefantrine,Malaria,3000,576,965,2611,0,No
+Rural Health Post B,2024-06,Quinine,Malaria,1200,216,349,1067,0,No
+Rural Health Post B,2024-06,Amoxicillin,Infections,4800,864,831,4833,0,No
+Rural Health Post B,2024-06,Paracetamol,General,9000,1800,1428,9372,0,No
+Rural Health Post B,2024-06,Ibuprofen,General,6000,1080,1050,6030,0,No
+Rural Health Post B,2024-06,ORS Sachets,Diarrhea,3000,648,1047,2601,0,No
+Rural Health Post B,2024-06,Metronidazole,Infections,1800,360,270,1890,0,No
+Rural Health Post B,2024-06,Amlodipine,Hypertension,2400,432,329,2503,0,No
+Rural Health Post B,2024-06,Metformin,Diabetes,2100,396,364,2132,0,No
+Rural Health Post B,2024-06,Ciprofloxacin,Typhoid,1500,288,226,1562,0,No
+Rural Health Post B,2024-06,Azithromycin,Respiratory,1800,324,343,1781,0,No
+Rural Health Post B,2024-06,Salbutamol Inhaler,Asthma,900,180,144,936,0,No
+Rural Health Post B,2024-06,Hydrocortisone Cream,Skin,1200,252,228,1224,0,No
+Rural Health Post B,2024-06,Diclofenac,Arthritis,1500,288,230,1558,0,No
+Rural Health Post B,2024-06,Ambroxol Syrup,Respiratory,1800,360,392,1768,0,No
+Urban Primary Care,2024-06,Artemether-Lumefantrine,Malaria,5000,960,1425,4535,0,No
+Urban Primary Care,2024-06,Quinine,Malaria,2000,360,548,1812,0,No
+Urban Primary Care,2024-06,Amoxicillin,Infections,8000,1440,1191,8249,0,No
+Urban Primary Care,2024-06,Paracetamol,General,15000,3000,2714,15286,0,No
+Urban Primary Care,2024-06,Ibuprofen,General,10000,1800,1671,10129,0,No
+Urban Primary Care,2024-06,ORS Sachets,Diarrhea,5000,1080,1685,4395,0,No
+Urban Primary Care,2024-06,Metronidazole,Infections,3000,600,493,3107,0,No
+Urban Primary Care,2024-06,Amlodipine,Hypertension,4000,720,660,4060,0,No
+Urban Primary Care,2024-06,Metformin,Diabetes,3500,660,646,3514,0,No
+Urban Primary Care,2024-06,Ciprofloxacin,Typhoid,2500,480,393,2587,0,No
+Urban Primary Care,2024-06,Azithromycin,Respiratory,3000,540,723,2817,0,No
+Urban Primary Care,2024-06,Salbutamol Inhaler,Asthma,1500,300,265,1535,0,No
+Urban Primary Care,2024-06,Hydrocortisone Cream,Skin,2000,420,351,2069,0,No
+Urban Primary Care,2024-06,Diclofenac,Arthritis,2500,480,476,2504,0,No
+Urban Primary Care,2024-06,Ambroxol Syrup,Respiratory,3000,600,608,2992,0,No
+Community Wellness Center,2024-06,Artemether-Lumefantrine,Malaria,5000,960,1344,4616,0,No
+Community Wellness Center,2024-06,Quinine,Malaria,2000,360,532,1828,0,No
+Community Wellness Center,2024-06,Amoxicillin,Infections,8000,1440,994,8446,0,No
+Community Wellness Center,2024-06,Paracetamol,General,15000,3000,2072,15928,0,No
+Community Wellness Center,2024-06,Ibuprofen,General,10000,1800,1390,10410,0,No
+Community Wellness Center,2024-06,ORS Sachets,Diarrhea,5000,1080,1417,4663,0,No
+Community Wellness Center,2024-06,Metronidazole,Infections,3000,600,421,3179,0,No
+Community Wellness Center,2024-06,Amlodipine,Hypertension,4000,720,710,4010,0,No
+Community Wellness Center,2024-06,Metformin,Diabetes,3500,660,613,3547,0,No
+Community Wellness Center,2024-06,Ciprofloxacin,Typhoid,2500,480,423,2557,0,No
+Community Wellness Center,2024-06,Azithromycin,Respiratory,3000,540,546,2994,0,No
+Community Wellness Center,2024-06,Salbutamol Inhaler,Asthma,1500,300,227,1573,0,No
+Community Wellness Center,2024-06,Hydrocortisone Cream,Skin,2000,420,334,2086,0,No
+Community Wellness Center,2024-06,Diclofenac,Arthritis,2500,480,354,2626,0,No
+Community Wellness Center,2024-06,Ambroxol Syrup,Respiratory,3000,600,759,2841,0,No
+District Referral Hospital,2024-06,Artemether-Lumefantrine,Malaria,7500,1440,2074,6866,0,No
+District Referral Hospital,2024-06,Quinine,Malaria,3000,540,733,2807,0,No
+District Referral Hospital,2024-06,Amoxicillin,Infections,12000,2160,1782,12378,0,No
+District Referral Hospital,2024-06,Paracetamol,General,22500,4500,3474,23526,0,No
+District Referral Hospital,2024-06,Ibuprofen,General,15000,2700,2015,15685,0,No
+District Referral Hospital,2024-06,ORS Sachets,Diarrhea,7500,1620,2318,6802,0,No
+District Referral Hospital,2024-06,Metronidazole,Infections,4500,900,871,4529,0,No
+District Referral Hospital,2024-06,Amlodipine,Hypertension,6000,1080,840,6240,0,No
+District Referral Hospital,2024-06,Metformin,Diabetes,5250,990,799,5441,0,No
+District Referral Hospital,2024-06,Ciprofloxacin,Typhoid,3750,720,643,3827,0,No
+District Referral Hospital,2024-06,Azithromycin,Respiratory,4500,810,819,4491,0,Yes
+District Referral Hospital,2024-06,Salbutamol Inhaler,Asthma,2250,450,449,2251,0,No
+District Referral Hospital,2024-06,Hydrocortisone Cream,Skin,3000,630,610,3020,0,No
+District Referral Hospital,2024-06,Diclofenac,Arthritis,3750,720,489,3981,0,No
+District Referral Hospital,2024-06,Ambroxol Syrup,Respiratory,4500,900,1166,4234,0,No
+Central County Hospital,2024-07,Artemether-Lumefantrine,Malaria,7500,1440,2683,6257,0,No
+Central County Hospital,2024-07,Quinine,Malaria,3000,540,789,2751,0,No
+Central County Hospital,2024-07,Amoxicillin,Infections,12000,2160,2154,12006,0,No
+Central County Hospital,2024-07,Paracetamol,General,22500,4500,4229,22771,0,No
+Central County Hospital,2024-07,Ibuprofen,General,15000,2700,1824,15876,0,No
+Central County Hospital,2024-07,ORS Sachets,Diarrhea,7500,1620,2005,7115,0,No
+Central County Hospital,2024-07,Metronidazole,Infections,4500,900,685,4715,0,No
+Central County Hospital,2024-07,Amlodipine,Hypertension,6000,1080,981,6099,0,No
+Central County Hospital,2024-07,Metformin,Diabetes,5250,990,851,5389,0,Yes
+Central County Hospital,2024-07,Ciprofloxacin,Typhoid,3750,720,621,3849,0,No
+Central County Hospital,2024-07,Azithromycin,Respiratory,4500,810,879,4431,0,No
+Central County Hospital,2024-07,Salbutamol Inhaler,Asthma,2250,450,382,2318,0,No
+Central County Hospital,2024-07,Hydrocortisone Cream,Skin,3000,630,580,3050,0,No
+Central County Hospital,2024-07,Diclofenac,Arthritis,3750,720,698,3772,0,No
+Central County Hospital,2024-07,Ambroxol Syrup,Respiratory,4500,900,1159,4241,0,No
+Eastside Health Center,2024-07,Artemether-Lumefantrine,Malaria,5000,960,1504,4456,0,No
+Eastside Health Center,2024-07,Quinine,Malaria,2000,360,494,1866,0,No
+Eastside Health Center,2024-07,Amoxicillin,Infections,8000,1440,1059,8381,0,No
+Eastside Health Center,2024-07,Paracetamol,General,15000,3000,2662,15338,0,No
+Eastside Health Center,2024-07,Ibuprofen,General,10000,1800,1743,10057,0,No
+Eastside Health Center,2024-07,ORS Sachets,Diarrhea,5000,1080,1335,4745,0,No
+Eastside Health Center,2024-07,Metronidazole,Infections,3000,600,407,3193,0,No
+Eastside Health Center,2024-07,Amlodipine,Hypertension,4000,720,546,4174,0,No
+Eastside Health Center,2024-07,Metformin,Diabetes,3500,660,555,3605,0,No
+Eastside Health Center,2024-07,Ciprofloxacin,Typhoid,2500,480,343,2637,0,No
+Eastside Health Center,2024-07,Azithromycin,Respiratory,3000,540,798,2742,0,No
+Eastside Health Center,2024-07,Salbutamol Inhaler,Asthma,1500,300,211,1589,0,No
+Eastside Health Center,2024-07,Hydrocortisone Cream,Skin,2000,420,406,2014,0,No
+Eastside Health Center,2024-07,Diclofenac,Arthritis,2500,480,461,2519,0,No
+Eastside Health Center,2024-07,Ambroxol Syrup,Respiratory,3000,600,610,2990,0,No
+Westgate Clinic,2024-07,Artemether-Lumefantrine,Malaria,5000,960,1862,4098,0,No
+Westgate Clinic,2024-07,Quinine,Malaria,2000,360,539,1821,0,No
+Westgate Clinic,2024-07,Amoxicillin,Infections,8000,1440,1127,8313,0,No
+Westgate Clinic,2024-07,Paracetamol,General,15000,3000,2317,15683,0,No
+Westgate Clinic,2024-07,Ibuprofen,General,10000,1800,1555,10245,0,No
+Westgate Clinic,2024-07,ORS Sachets,Diarrhea,5000,1080,1500,4580,0,No
+Westgate Clinic,2024-07,Metronidazole,Infections,3000,600,410,3190,0,No
+Westgate Clinic,2024-07,Amlodipine,Hypertension,4000,720,606,4114,0,No
+Westgate Clinic,2024-07,Metformin,Diabetes,3500,660,535,3625,0,No
+Westgate Clinic,2024-07,Ciprofloxacin,Typhoid,2500,480,408,2572,0,No
+Westgate Clinic,2024-07,Azithromycin,Respiratory,3000,540,674,2866,0,No
+Westgate Clinic,2024-07,Salbutamol Inhaler,Asthma,1500,300,258,1542,0,Yes
+Westgate Clinic,2024-07,Hydrocortisone Cream,Skin,2000,420,370,2050,0,No
+Westgate Clinic,2024-07,Diclofenac,Arthritis,2500,480,329,2651,0,No
+Westgate Clinic,2024-07,Ambroxol Syrup,Respiratory,3000,600,642,2958,0,No
+Northview Medical Center,2024-07,Artemether-Lumefantrine,Malaria,5000,960,1286,4674,0,No
+Northview Medical Center,2024-07,Quinine,Malaria,2000,360,601,1759,0,No
+Northview Medical Center,2024-07,Amoxicillin,Infections,8000,1440,1100,8340,0,No
+Northview Medical Center,2024-07,Paracetamol,General,15000,3000,2538,15462,0,No
+Northview Medical Center,2024-07,Ibuprofen,General,10000,1800,1232,10568,0,No
+Northview Medical Center,2024-07,ORS Sachets,Diarrhea,5000,1080,1354,4726,0,Yes
+Northview Medical Center,2024-07,Metronidazole,Infections,3000,600,570,3030,0,No
+Northview Medical Center,2024-07,Amlodipine,Hypertension,4000,720,601,4119,0,No
+Northview Medical Center,2024-07,Metformin,Diabetes,3500,660,629,3531,0,No
+Northview Medical Center,2024-07,Ciprofloxacin,Typhoid,2500,480,429,2551,0,No
+Northview Medical Center,2024-07,Azithromycin,Respiratory,3000,540,589,2951,0,No
+Northview Medical Center,2024-07,Salbutamol Inhaler,Asthma,1500,300,211,1589,0,No
+Northview Medical Center,2024-07,Hydrocortisone Cream,Skin,2000,420,344,2076,0,No
+Northview Medical Center,2024-07,Diclofenac,Arthritis,2500,480,384,2596,0,No
+Northview Medical Center,2024-07,Ambroxol Syrup,Respiratory,3000,600,743,2857,0,No
+Southside Community Clinic,2024-07,Artemether-Lumefantrine,Malaria,5000,960,1427,4533,0,No
+Southside Community Clinic,2024-07,Quinine,Malaria,2000,360,534,1826,0,No
+Southside Community Clinic,2024-07,Amoxicillin,Infections,8000,1440,1434,8006,0,Yes
+Southside Community Clinic,2024-07,Paracetamol,General,15000,3000,2119,15881,0,No
+Southside Community Clinic,2024-07,Ibuprofen,General,10000,1800,1289,10511,0,No
+Southside Community Clinic,2024-07,ORS Sachets,Diarrhea,5000,1080,1755,4325,0,No
+Southside Community Clinic,2024-07,Metronidazole,Infections,3000,600,413,3187,0,No
+Southside Community Clinic,2024-07,Amlodipine,Hypertension,4000,720,499,4221,0,No
+Southside Community Clinic,2024-07,Metformin,Diabetes,3500,660,478,3682,0,No
+Southside Community Clinic,2024-07,Ciprofloxacin,Typhoid,2500,480,363,2617,0,No
+Southside Community Clinic,2024-07,Azithromycin,Respiratory,3000,540,664,2876,0,No
+Southside Community Clinic,2024-07,Salbutamol Inhaler,Asthma,1500,300,270,1530,0,No
+Southside Community Clinic,2024-07,Hydrocortisone Cream,Skin,2000,420,388,2032,0,No
+Southside Community Clinic,2024-07,Diclofenac,Arthritis,2500,480,426,2554,0,No
+Southside Community Clinic,2024-07,Ambroxol Syrup,Respiratory,3000,600,617,2983,0,No
+Rural Health Post A,2024-07,Artemether-Lumefantrine,Malaria,3000,576,883,2693,0,No
+Rural Health Post A,2024-07,Quinine,Malaria,1200,216,301,1115,0,No
+Rural Health Post A,2024-07,Amoxicillin,Infections,4800,864,698,4966,0,No
+Rural Health Post A,2024-07,Paracetamol,General,9000,1800,1578,9222,0,Yes
+Rural Health Post A,2024-07,Ibuprofen,General,6000,1080,994,6086,0,No
+Rural Health Post A,2024-07,ORS Sachets,Diarrhea,3000,648,853,2795,0,No
+Rural Health Post A,2024-07,Metronidazole,Infections,1800,360,285,1875,0,No
+Rural Health Post A,2024-07,Amlodipine,Hypertension,2400,432,369,2463,0,No
+Rural Health Post A,2024-07,Metformin,Diabetes,2100,396,288,2208,0,No
+Rural Health Post A,2024-07,Ciprofloxacin,Typhoid,1500,288,251,1537,0,No
+Rural Health Post A,2024-07,Azithromycin,Respiratory,1800,324,458,1666,0,No
+Rural Health Post A,2024-07,Salbutamol Inhaler,Asthma,900,180,139,941,0,No
+Rural Health Post A,2024-07,Hydrocortisone Cream,Skin,1200,252,187,1265,0,No
+Rural Health Post A,2024-07,Diclofenac,Arthritis,1500,288,192,1596,0,No
+Rural Health Post A,2024-07,Ambroxol Syrup,Respiratory,1800,360,391,1769,0,No
+Rural Health Post B,2024-07,Artemether-Lumefantrine,Malaria,3000,576,938,2638,0,No
+Rural Health Post B,2024-07,Quinine,Malaria,1200,216,297,1119,0,No
+Rural Health Post B,2024-07,Amoxicillin,Infections,4800,864,662,5002,0,No
+Rural Health Post B,2024-07,Paracetamol,General,9000,1800,1363,9437,0,No
+Rural Health Post B,2024-07,Ibuprofen,General,6000,1080,767,6313,0,No
+Rural Health Post B,2024-07,ORS Sachets,Diarrhea,3000,648,1050,2598,0,No
+Rural Health Post B,2024-07,Metronidazole,Infections,1800,360,335,1825,0,No
+Rural Health Post B,2024-07,Amlodipine,Hypertension,2400,432,326,2506,0,No
+Rural Health Post B,2024-07,Metformin,Diabetes,2100,396,283,2213,0,No
+Rural Health Post B,2024-07,Ciprofloxacin,Typhoid,1500,288,266,1522,0,No
+Rural Health Post B,2024-07,Azithromycin,Respiratory,1800,324,454,1670,0,No
+Rural Health Post B,2024-07,Salbutamol Inhaler,Asthma,900,180,179,901,0,No
+Rural Health Post B,2024-07,Hydrocortisone Cream,Skin,1200,252,192,1260,0,No
+Rural Health Post B,2024-07,Diclofenac,Arthritis,1500,288,276,1512,0,No
+Rural Health Post B,2024-07,Ambroxol Syrup,Respiratory,1800,360,517,1643,0,No
+Urban Primary Care,2024-07,Artemether-Lumefantrine,Malaria,5000,960,1674,4286,0,No
+Urban Primary Care,2024-07,Quinine,Malaria,2000,360,562,1798,0,No
+Urban Primary Care,2024-07,Amoxicillin,Infections,8000,1440,1301,8139,0,No
+Urban Primary Care,2024-07,Paracetamol,General,15000,3000,2865,15135,0,No
+Urban Primary Care,2024-07,Ibuprofen,General,10000,1800,1753,10047,0,No
+Urban Primary Care,2024-07,ORS Sachets,Diarrhea,5000,1080,1668,4412,0,No
+Urban Primary Care,2024-07,Metronidazole,Infections,3000,600,505,3095,0,No
+Urban Primary Care,2024-07,Amlodipine,Hypertension,4000,720,672,4048,0,No
+Urban Primary Care,2024-07,Metformin,Diabetes,3500,660,457,3703,0,No
+Urban Primary Care,2024-07,Ciprofloxacin,Typhoid,2500,480,409,2571,0,No
+Urban Primary Care,2024-07,Azithromycin,Respiratory,3000,540,726,2814,0,No
+Urban Primary Care,2024-07,Salbutamol Inhaler,Asthma,1500,300,283,1517,0,No
+Urban Primary Care,2024-07,Hydrocortisone Cream,Skin,2000,420,351,2069,0,No
+Urban Primary Care,2024-07,Diclofenac,Arthritis,2500,480,329,2651,0,No
+Urban Primary Care,2024-07,Ambroxol Syrup,Respiratory,3000,600,768,2832,0,No
+Community Wellness Center,2024-07,Artemether-Lumefantrine,Malaria,5000,960,1516,4444,0,No
+Community Wellness Center,2024-07,Quinine,Malaria,2000,360,643,1717,0,No
+Community Wellness Center,2024-07,Amoxicillin,Infections,8000,1440,1341,8099,0,No
+Community Wellness Center,2024-07,Paracetamol,General,15000,3000,2895,15105,0,No
+Community Wellness Center,2024-07,Ibuprofen,General,10000,1800,1457,10343,0,No
+Community Wellness Center,2024-07,ORS Sachets,Diarrhea,5000,1080,1923,4157,0,No
+Community Wellness Center,2024-07,Metronidazole,Infections,3000,600,420,3180,0,No
+Community Wellness Center,2024-07,Amlodipine,Hypertension,4000,720,498,4222,0,No
+Community Wellness Center,2024-07,Metformin,Diabetes,3500,660,654,3506,0,No
+Community Wellness Center,2024-07,Ciprofloxacin,Typhoid,2500,480,344,2636,0,No
+Community Wellness Center,2024-07,Azithromycin,Respiratory,3000,540,759,2781,0,No
+Community Wellness Center,2024-07,Salbutamol Inhaler,Asthma,1500,300,291,1509,0,No
+Community Wellness Center,2024-07,Hydrocortisone Cream,Skin,2000,420,302,2118,0,No
+Community Wellness Center,2024-07,Diclofenac,Arthritis,2500,480,358,2622,0,No
+Community Wellness Center,2024-07,Ambroxol Syrup,Respiratory,3000,600,669,2931,0,No
+District Referral Hospital,2024-07,Artemether-Lumefantrine,Malaria,7500,1440,2337,6603,0,No
+District Referral Hospital,2024-07,Quinine,Malaria,3000,540,1025,2515,0,No
+District Referral Hospital,2024-07,Amoxicillin,Infections,12000,2160,1708,12452,0,No
+District Referral Hospital,2024-07,Paracetamol,General,22500,4500,3698,23302,0,No
+District Referral Hospital,2024-07,Ibuprofen,General,15000,2700,2108,15592,0,No
+District Referral Hospital,2024-07,ORS Sachets,Diarrhea,7500,1620,2616,6504,0,No
+District Referral Hospital,2024-07,Metronidazole,Infections,4500,900,801,4599,0,No
+District Referral Hospital,2024-07,Amlodipine,Hypertension,6000,1080,904,6176,0,No
+District Referral Hospital,2024-07,Metformin,Diabetes,5250,990,769,5471,0,No
+District Referral Hospital,2024-07,Ciprofloxacin,Typhoid,3750,720,494,3976,0,No
+District Referral Hospital,2024-07,Azithromycin,Respiratory,4500,810,890,4420,0,No
+District Referral Hospital,2024-07,Salbutamol Inhaler,Asthma,2250,450,372,2328,0,No
+District Referral Hospital,2024-07,Hydrocortisone Cream,Skin,3000,630,502,3128,0,No
+District Referral Hospital,2024-07,Diclofenac,Arthritis,3750,720,706,3764,0,No
+District Referral Hospital,2024-07,Ambroxol Syrup,Respiratory,4500,900,1089,4311,0,No
+Central County Hospital,2024-08,Artemether-Lumefantrine,Malaria,7500,1440,1378,7562,0,No
+Central County Hospital,2024-08,Quinine,Malaria,3000,540,370,3170,0,No
+Central County Hospital,2024-08,Amoxicillin,Infections,12000,2160,1520,12640,0,No
+Central County Hospital,2024-08,Paracetamol,General,22500,4500,3340,23660,0,No
+Central County Hospital,2024-08,Ibuprofen,General,15000,2700,2243,15457,0,No
+Central County Hospital,2024-08,ORS Sachets,Diarrhea,7500,1620,1231,7889,0,No
+Central County Hospital,2024-08,Metronidazole,Infections,4500,900,790,4610,0,No
+Central County Hospital,2024-08,Amlodipine,Hypertension,6000,1080,1079,6001,0,No
+Central County Hospital,2024-08,Metformin,Diabetes,5250,990,813,5427,0,No
+Central County Hospital,2024-08,Ciprofloxacin,Typhoid,3750,720,615,3855,0,No
+Central County Hospital,2024-08,Azithromycin,Respiratory,4500,810,1040,4270,0,Yes
+Central County Hospital,2024-08,Salbutamol Inhaler,Asthma,2250,450,317,2383,0,Yes
+Central County Hospital,2024-08,Hydrocortisone Cream,Skin,3000,630,455,3175,0,No
+Central County Hospital,2024-08,Diclofenac,Arthritis,3750,720,531,3939,0,No
+Central County Hospital,2024-08,Ambroxol Syrup,Respiratory,4500,900,1277,4123,0,No
+Eastside Health Center,2024-08,Artemether-Lumefantrine,Malaria,5000,960,652,5308,0,No
+Eastside Health Center,2024-08,Quinine,Malaria,2000,360,305,2055,0,No
+Eastside Health Center,2024-08,Amoxicillin,Infections,8000,1440,1248,8192,0,No
+Eastside Health Center,2024-08,Paracetamol,General,15000,3000,2239,15761,0,No
+Eastside Health Center,2024-08,Ibuprofen,General,10000,1800,1388,10412,0,No
+Eastside Health Center,2024-08,ORS Sachets,Diarrhea,5000,1080,949,5131,0,No
+Eastside Health Center,2024-08,Metronidazole,Infections,3000,600,520,3080,0,No
+Eastside Health Center,2024-08,Amlodipine,Hypertension,4000,720,649,4071,0,No
+Eastside Health Center,2024-08,Metformin,Diabetes,3500,660,475,3685,0,No
+Eastside Health Center,2024-08,Ciprofloxacin,Typhoid,2500,480,478,2502,0,No
+Eastside Health Center,2024-08,Azithromycin,Respiratory,3000,540,643,2897,0,No
+Eastside Health Center,2024-08,Salbutamol Inhaler,Asthma,1500,300,208,1592,0,No
+Eastside Health Center,2024-08,Hydrocortisone Cream,Skin,2000,420,377,2043,0,No
+Eastside Health Center,2024-08,Diclofenac,Arthritis,2500,480,403,2577,0,No
+Eastside Health Center,2024-08,Ambroxol Syrup,Respiratory,3000,600,865,2735,0,No
+Westgate Clinic,2024-08,Artemether-Lumefantrine,Malaria,5000,960,889,5071,0,No
+Westgate Clinic,2024-08,Quinine,Malaria,2000,360,291,2069,0,No
+Westgate Clinic,2024-08,Amoxicillin,Infections,8000,1440,1007,8433,0,No
+Westgate Clinic,2024-08,Paracetamol,General,15000,3000,2585,15415,0,No
+Westgate Clinic,2024-08,Ibuprofen,General,10000,1800,1426,10374,0,No
+Westgate Clinic,2024-08,ORS Sachets,Diarrhea,5000,1080,988,5092,0,No
+Westgate Clinic,2024-08,Metronidazole,Infections,3000,600,483,3117,0,No
+Westgate Clinic,2024-08,Amlodipine,Hypertension,4000,720,541,4179,0,No
+Westgate Clinic,2024-08,Metformin,Diabetes,3500,660,551,3609,0,No
+Westgate Clinic,2024-08,Ciprofloxacin,Typhoid,2500,480,457,2523,0,No
+Westgate Clinic,2024-08,Azithromycin,Respiratory,3000,540,695,2845,0,Yes
+Westgate Clinic,2024-08,Salbutamol Inhaler,Asthma,1500,300,262,1538,0,No
+Westgate Clinic,2024-08,Hydrocortisone Cream,Skin,2000,420,336,2084,0,No
+Westgate Clinic,2024-08,Diclofenac,Arthritis,2500,480,396,2584,0,No
+Westgate Clinic,2024-08,Ambroxol Syrup,Respiratory,3000,600,832,2768,0,No
+Northview Medical Center,2024-08,Artemether-Lumefantrine,Malaria,5000,960,893,5067,0,No
+Northview Medical Center,2024-08,Quinine,Malaria,2000,360,263,2097,0,No
+Northview Medical Center,2024-08,Amoxicillin,Infections,8000,1440,1173,8267,0,No
+Northview Medical Center,2024-08,Paracetamol,General,15000,3000,2407,15593,0,No
+Northview Medical Center,2024-08,Ibuprofen,General,10000,1800,1530,10270,0,Yes
+Northview Medical Center,2024-08,ORS Sachets,Diarrhea,5000,1080,823,5257,0,No
+Northview Medical Center,2024-08,Metronidazole,Infections,3000,600,593,3007,0,No
+Northview Medical Center,2024-08,Amlodipine,Hypertension,4000,720,541,4179,0,No
+Northview Medical Center,2024-08,Metformin,Diabetes,3500,660,492,3668,0,No
+Northview Medical Center,2024-08,Ciprofloxacin,Typhoid,2500,480,374,2606,0,Yes
+Northview Medical Center,2024-08,Azithromycin,Respiratory,3000,540,776,2764,0,No
+Northview Medical Center,2024-08,Salbutamol Inhaler,Asthma,1500,300,201,1599,0,No
+Northview Medical Center,2024-08,Hydrocortisone Cream,Skin,2000,420,361,2059,0,No
+Northview Medical Center,2024-08,Diclofenac,Arthritis,2500,480,452,2528,0,No
+Northview Medical Center,2024-08,Ambroxol Syrup,Respiratory,3000,600,776,2824,0,No
+Southside Community Clinic,2024-08,Artemether-Lumefantrine,Malaria,5000,960,858,5102,0,No
+Southside Community Clinic,2024-08,Quinine,Malaria,2000,360,291,2069,0,No
+Southside Community Clinic,2024-08,Amoxicillin,Infections,8000,1440,1194,8246,0,No
+Southside Community Clinic,2024-08,Paracetamol,General,15000,3000,2936,15064,0,No
+Southside Community Clinic,2024-08,Ibuprofen,General,10000,1800,1315,10485,0,No
+Southside Community Clinic,2024-08,ORS Sachets,Diarrhea,5000,1080,981,5099,0,No
+Southside Community Clinic,2024-08,Metronidazole,Infections,3000,600,558,3042,0,No
+Southside Community Clinic,2024-08,Amlodipine,Hypertension,4000,720,484,4236,0,No
+Southside Community Clinic,2024-08,Metformin,Diabetes,3500,660,539,3621,0,No
+Southside Community Clinic,2024-08,Ciprofloxacin,Typhoid,2500,480,466,2514,0,No
+Southside Community Clinic,2024-08,Azithromycin,Respiratory,3000,540,805,2735,0,No
+Southside Community Clinic,2024-08,Salbutamol Inhaler,Asthma,1500,300,232,1568,0,No
+Southside Community Clinic,2024-08,Hydrocortisone Cream,Skin,2000,420,305,2115,0,No
+Southside Community Clinic,2024-08,Diclofenac,Arthritis,2500,480,475,2505,0,No
+Southside Community Clinic,2024-08,Ambroxol Syrup,Respiratory,3000,600,722,2878,0,No
+Rural Health Post A,2024-08,Artemether-Lumefantrine,Malaria,3000,576,547,3029,0,Yes
+Rural Health Post A,2024-08,Quinine,Malaria,1200,216,189,1227,0,No
+Rural Health Post A,2024-08,Amoxicillin,Infections,4800,864,797,4867,0,No
+Rural Health Post A,2024-08,Paracetamol,General,9000,1800,1276,9524,0,No
+Rural Health Post A,2024-08,Ibuprofen,General,6000,1080,752,6328,0,No
+Rural Health Post A,2024-08,ORS Sachets,Diarrhea,3000,648,468,3180,0,No
+Rural Health Post A,2024-08,Metronidazole,Infections,1800,360,240,1920,0,No
+Rural Health Post A,2024-08,Amlodipine,Hypertension,2400,432,412,2420,0,No
+Rural Health Post A,2024-08,Metformin,Diabetes,2100,396,341,2155,0,Yes
+Rural Health Post A,2024-08,Ciprofloxacin,Typhoid,1500,288,220,1568,0,No
+Rural Health Post A,2024-08,Azithromycin,Respiratory,1800,324,361,1763,0,Yes
+Rural Health Post A,2024-08,Salbutamol Inhaler,Asthma,900,180,129,951,0,No
+Rural Health Post A,2024-08,Hydrocortisone Cream,Skin,1200,252,234,1218,0,No
+Rural Health Post A,2024-08,Diclofenac,Arthritis,1500,288,221,1567,0,No
+Rural Health Post A,2024-08,Ambroxol Syrup,Respiratory,1800,360,437,1723,0,No
+Rural Health Post B,2024-08,Artemether-Lumefantrine,Malaria,3000,576,436,3140,0,No
+Rural Health Post B,2024-08,Quinine,Malaria,1200,216,163,1253,0,No
+Rural Health Post B,2024-08,Amoxicillin,Infections,4800,864,682,4982,0,No
+Rural Health Post B,2024-08,Paracetamol,General,9000,1800,1317,9483,0,Yes
+Rural Health Post B,2024-08,Ibuprofen,General,6000,1080,1062,6018,0,No
+Rural Health Post B,2024-08,ORS Sachets,Diarrhea,3000,648,439,3209,0,No
+Rural Health Post B,2024-08,Metronidazole,Infections,1800,360,334,1826,0,No
+Rural Health Post B,2024-08,Amlodipine,Hypertension,2400,432,399,2433,0,No
+Rural Health Post B,2024-08,Metformin,Diabetes,2100,396,362,2134,0,No
+Rural Health Post B,2024-08,Ciprofloxacin,Typhoid,1500,288,228,1560,0,No
+Rural Health Post B,2024-08,Azithromycin,Respiratory,1800,324,337,1787,0,No
+Rural Health Post B,2024-08,Salbutamol Inhaler,Asthma,900,180,169,911,0,No
+Rural Health Post B,2024-08,Hydrocortisone Cream,Skin,1200,252,230,1222,0,No
+Rural Health Post B,2024-08,Diclofenac,Arthritis,1500,288,267,1521,0,No
+Rural Health Post B,2024-08,Ambroxol Syrup,Respiratory,1800,360,362,1798,0,Yes
+Urban Primary Care,2024-08,Artemether-Lumefantrine,Malaria,5000,960,854,5106,0,No
+Urban Primary Care,2024-08,Quinine,Malaria,2000,360,274,2086,0,No
+Urban Primary Care,2024-08,Amoxicillin,Infections,8000,1440,1393,8047,0,No
+Urban Primary Care,2024-08,Paracetamol,General,15000,3000,2184,15816,0,Yes
+Urban Primary Care,2024-08,Ibuprofen,General,10000,1800,1678,10122,0,No
+Urban Primary Care,2024-08,ORS Sachets,Diarrhea,5000,1080,1044,5036,0,No
+Urban Primary Care,2024-08,Metronidazole,Infections,3000,600,507,3093,0,No
+Urban Primary Care,2024-08,Amlodipine,Hypertension,4000,720,606,4114,0,No
+Urban Primary Care,2024-08,Metformin,Diabetes,3500,660,522,3638,0,No
+Urban Primary Care,2024-08,Ciprofloxacin,Typhoid,2500,480,449,2531,0,No
+Urban Primary Care,2024-08,Azithromycin,Respiratory,3000,540,670,2870,0,No
+Urban Primary Care,2024-08,Salbutamol Inhaler,Asthma,1500,300,263,1537,0,No
+Urban Primary Care,2024-08,Hydrocortisone Cream,Skin,2000,420,280,2140,0,No
+Urban Primary Care,2024-08,Diclofenac,Arthritis,2500,480,395,2585,0,No
+Urban Primary Care,2024-08,Ambroxol Syrup,Respiratory,3000,600,886,2714,0,No
+Community Wellness Center,2024-08,Artemether-Lumefantrine,Malaria,5000,960,672,5288,0,No
+Community Wellness Center,2024-08,Quinine,Malaria,2000,360,359,2001,0,Yes
+Community Wellness Center,2024-08,Amoxicillin,Infections,8000,1440,1189,8251,0,No
+Community Wellness Center,2024-08,Paracetamol,General,15000,3000,2531,15469,0,No
+Community Wellness Center,2024-08,Ibuprofen,General,10000,1800,1218,10582,0,No
+Community Wellness Center,2024-08,ORS Sachets,Diarrhea,5000,1080,1015,5065,0,No
+Community Wellness Center,2024-08,Metronidazole,Infections,3000,600,582,3018,0,No
+Community Wellness Center,2024-08,Amlodipine,Hypertension,4000,720,511,4209,0,No
+Community Wellness Center,2024-08,Metformin,Diabetes,3500,660,445,3715,0,No
+Community Wellness Center,2024-08,Ciprofloxacin,Typhoid,2500,480,350,2630,0,No
+Community Wellness Center,2024-08,Azithromycin,Respiratory,3000,540,558,2982,0,No
+Community Wellness Center,2024-08,Salbutamol Inhaler,Asthma,1500,300,272,1528,0,No
+Community Wellness Center,2024-08,Hydrocortisone Cream,Skin,2000,420,380,2040,0,No
+Community Wellness Center,2024-08,Diclofenac,Arthritis,2500,480,438,2542,0,No
+Community Wellness Center,2024-08,Ambroxol Syrup,Respiratory,3000,600,751,2849,0,No
+District Referral Hospital,2024-08,Artemether-Lumefantrine,Malaria,7500,1440,1360,7580,0,No
+District Referral Hospital,2024-08,Quinine,Malaria,3000,540,539,3001,0,No
+District Referral Hospital,2024-08,Amoxicillin,Infections,12000,2160,1565,12595,0,Yes
+District Referral Hospital,2024-08,Paracetamol,General,22500,4500,4182,22818,0,No
+District Referral Hospital,2024-08,Ibuprofen,General,15000,2700,1914,15786,0,No
+District Referral Hospital,2024-08,ORS Sachets,Diarrhea,7500,1620,1583,7537,0,No
+District Referral Hospital,2024-08,Metronidazole,Infections,4500,900,895,4505,0,No
+District Referral Hospital,2024-08,Amlodipine,Hypertension,6000,1080,1030,6050,0,No
+District Referral Hospital,2024-08,Metformin,Diabetes,5250,990,818,5422,0,No
+District Referral Hospital,2024-08,Ciprofloxacin,Typhoid,3750,720,659,3811,0,No
+District Referral Hospital,2024-08,Azithromycin,Respiratory,4500,810,1150,4160,0,No
+District Referral Hospital,2024-08,Salbutamol Inhaler,Asthma,2250,450,326,2374,0,No
+District Referral Hospital,2024-08,Hydrocortisone Cream,Skin,3000,630,567,3063,0,No
+District Referral Hospital,2024-08,Diclofenac,Arthritis,3750,720,683,3787,0,Yes
+District Referral Hospital,2024-08,Ambroxol Syrup,Respiratory,4500,900,929,4471,0,No
+Central County Hospital,2024-09,Artemether-Lumefantrine,Malaria,7500,1440,1151,7789,0,No
+Central County Hospital,2024-09,Quinine,Malaria,3000,540,372,3168,0,No
+Central County Hospital,2024-09,Amoxicillin,Infections,12000,2160,1555,12605,0,No
+Central County Hospital,2024-09,Paracetamol,General,22500,4500,3808,23192,0,No
+Central County Hospital,2024-09,Ibuprofen,General,15000,2700,2440,15260,0,No
+Central County Hospital,2024-09,ORS Sachets,Diarrhea,7500,1620,1430,7690,0,No
+Central County Hospital,2024-09,Metronidazole,Infections,4500,900,843,4557,0,No
+Central County Hospital,2024-09,Amlodipine,Hypertension,6000,1080,989,6091,0,No
+Central County Hospital,2024-09,Metformin,Diabetes,5250,990,730,5510,0,No
+Central County Hospital,2024-09,Ciprofloxacin,Typhoid,3750,720,551,3919,0,No
+Central County Hospital,2024-09,Azithromycin,Respiratory,4500,810,554,4756,0,Yes
+Central County Hospital,2024-09,Salbutamol Inhaler,Asthma,2250,450,422,2278,0,No
+Central County Hospital,2024-09,Hydrocortisone Cream,Skin,3000,630,579,3051,0,No
+Central County Hospital,2024-09,Diclofenac,Arthritis,3750,720,676,3794,0,No
+Central County Hospital,2024-09,Ambroxol Syrup,Respiratory,4500,900,810,4590,0,No
+Eastside Health Center,2024-09,Artemether-Lumefantrine,Malaria,5000,960,651,5309,0,No
+Eastside Health Center,2024-09,Quinine,Malaria,2000,360,325,2035,0,No
+Eastside Health Center,2024-09,Amoxicillin,Infections,8000,1440,1350,8090,0,No
+Eastside Health Center,2024-09,Paracetamol,General,15000,3000,2928,15072,0,No
+Eastside Health Center,2024-09,Ibuprofen,General,10000,1800,1320,10480,0,No
+Eastside Health Center,2024-09,ORS Sachets,Diarrhea,5000,1080,990,5090,0,No
+Eastside Health Center,2024-09,Metronidazole,Infections,3000,600,447,3153,0,No
+Eastside Health Center,2024-09,Amlodipine,Hypertension,4000,720,575,4145,0,No
+Eastside Health Center,2024-09,Metformin,Diabetes,3500,660,553,3607,0,No
+Eastside Health Center,2024-09,Ciprofloxacin,Typhoid,2500,480,417,2563,0,No
+Eastside Health Center,2024-09,Azithromycin,Respiratory,3000,540,491,3049,0,No
+Eastside Health Center,2024-09,Salbutamol Inhaler,Asthma,1500,300,258,1542,0,No
+Eastside Health Center,2024-09,Hydrocortisone Cream,Skin,2000,420,392,2028,0,No
+Eastside Health Center,2024-09,Diclofenac,Arthritis,2500,480,329,2651,0,No
+Eastside Health Center,2024-09,Ambroxol Syrup,Respiratory,3000,600,427,3173,0,No
+Westgate Clinic,2024-09,Artemether-Lumefantrine,Malaria,5000,960,887,5073,0,No
+Westgate Clinic,2024-09,Quinine,Malaria,2000,360,330,2030,0,No
+Westgate Clinic,2024-09,Amoxicillin,Infections,8000,1440,1205,8235,0,No
+Westgate Clinic,2024-09,Paracetamol,General,15000,3000,2545,15455,0,No
+Westgate Clinic,2024-09,Ibuprofen,General,10000,1800,1432,10368,0,No
+Westgate Clinic,2024-09,ORS Sachets,Diarrhea,5000,1080,994,5086,0,No
+Westgate Clinic,2024-09,Metronidazole,Infections,3000,600,411,3189,0,No
+Westgate Clinic,2024-09,Amlodipine,Hypertension,4000,720,671,4049,0,No
+Westgate Clinic,2024-09,Metformin,Diabetes,3500,660,456,3704,0,No
+Westgate Clinic,2024-09,Ciprofloxacin,Typhoid,2500,480,436,2544,0,No
+Westgate Clinic,2024-09,Azithromycin,Respiratory,3000,540,433,3107,0,No
+Westgate Clinic,2024-09,Salbutamol Inhaler,Asthma,1500,300,219,1581,0,No
+Westgate Clinic,2024-09,Hydrocortisone Cream,Skin,2000,420,418,2002,0,No
+Westgate Clinic,2024-09,Diclofenac,Arthritis,2500,480,396,2584,0,No
+Westgate Clinic,2024-09,Ambroxol Syrup,Respiratory,3000,600,438,3162,0,No
+Northview Medical Center,2024-09,Artemether-Lumefantrine,Malaria,5000,960,679,5281,0,No
+Northview Medical Center,2024-09,Quinine,Malaria,2000,360,251,2109,0,No
+Northview Medical Center,2024-09,Amoxicillin,Infections,8000,1440,1073,8367,0,No
+Northview Medical Center,2024-09,Paracetamol,General,15000,3000,2673,15327,0,No
+Northview Medical Center,2024-09,Ibuprofen,General,10000,1800,1255,10545,0,No
+Northview Medical Center,2024-09,ORS Sachets,Diarrhea,5000,1080,1073,5007,0,No
+Northview Medical Center,2024-09,Metronidazole,Infections,3000,600,490,3110,0,No
+Northview Medical Center,2024-09,Amlodipine,Hypertension,4000,720,620,4100,0,No
+Northview Medical Center,2024-09,Metformin,Diabetes,3500,660,599,3561,0,No
+Northview Medical Center,2024-09,Ciprofloxacin,Typhoid,2500,480,402,2578,0,No
+Northview Medical Center,2024-09,Azithromycin,Respiratory,3000,540,378,3162,0,No
+Northview Medical Center,2024-09,Salbutamol Inhaler,Asthma,1500,300,200,1600,0,No
+Northview Medical Center,2024-09,Hydrocortisone Cream,Skin,2000,420,309,2111,0,No
+Northview Medical Center,2024-09,Diclofenac,Arthritis,2500,480,438,2542,0,No
+Northview Medical Center,2024-09,Ambroxol Syrup,Respiratory,3000,600,577,3023,0,No
+Southside Community Clinic,2024-09,Artemether-Lumefantrine,Malaria,5000,960,900,5060,0,No
+Southside Community Clinic,2024-09,Quinine,Malaria,2000,360,298,2062,0,No
+Southside Community Clinic,2024-09,Amoxicillin,Infections,8000,1440,1058,8382,0,No
+Southside Community Clinic,2024-09,Paracetamol,General,15000,3000,2010,15990,0,No
+Southside Community Clinic,2024-09,Ibuprofen,General,10000,1800,1545,10255,0,No
+Southside Community Clinic,2024-09,ORS Sachets,Diarrhea,5000,1080,907,5173,0,No
+Southside Community Clinic,2024-09,Metronidazole,Infections,3000,600,427,3173,0,No
+Southside Community Clinic,2024-09,Amlodipine,Hypertension,4000,720,635,4085,0,No
+Southside Community Clinic,2024-09,Metformin,Diabetes,3500,660,518,3642,0,No
+Southside Community Clinic,2024-09,Ciprofloxacin,Typhoid,2500,480,444,2536,0,No
+Southside Community Clinic,2024-09,Azithromycin,Respiratory,3000,540,468,3072,0,No
+Southside Community Clinic,2024-09,Salbutamol Inhaler,Asthma,1500,300,234,1566,0,Yes
+Southside Community Clinic,2024-09,Hydrocortisone Cream,Skin,2000,420,362,2058,0,No
+Southside Community Clinic,2024-09,Diclofenac,Arthritis,2500,480,386,2594,0,No
+Southside Community Clinic,2024-09,Ambroxol Syrup,Respiratory,3000,600,511,3089,0,No
+Rural Health Post A,2024-09,Artemether-Lumefantrine,Malaria,3000,576,411,3165,0,No
+Rural Health Post A,2024-09,Quinine,Malaria,1200,216,197,1219,0,No
+Rural Health Post A,2024-09,Amoxicillin,Infections,4800,864,623,5041,0,No
+Rural Health Post A,2024-09,Paracetamol,General,9000,1800,1346,9454,0,No
+Rural Health Post A,2024-09,Ibuprofen,General,6000,1080,813,6267,0,No
+Rural Health Post A,2024-09,ORS Sachets,Diarrhea,3000,648,514,3134,0,No
+Rural Health Post A,2024-09,Metronidazole,Infections,1800,360,317,1843,0,No
+Rural Health Post A,2024-09,Amlodipine,Hypertension,2400,432,309,2523,0,No
+Rural Health Post A,2024-09,Metformin,Diabetes,2100,396,380,2116,0,No
+Rural Health Post A,2024-09,Ciprofloxacin,Typhoid,1500,288,210,1578,0,No
+Rural Health Post A,2024-09,Azithromycin,Respiratory,1800,324,316,1808,0,No
+Rural Health Post A,2024-09,Salbutamol Inhaler,Asthma,900,180,163,917,0,No
+Rural Health Post A,2024-09,Hydrocortisone Cream,Skin,1200,252,224,1228,0,Yes
+Rural Health Post A,2024-09,Diclofenac,Arthritis,1500,288,277,1511,0,No
+Rural Health Post A,2024-09,Ambroxol Syrup,Respiratory,1800,360,297,1863,0,No
+Rural Health Post B,2024-09,Artemether-Lumefantrine,Malaria,3000,576,553,3023,0,No
+Rural Health Post B,2024-09,Quinine,Malaria,1200,216,178,1238,0,No
+Rural Health Post B,2024-09,Amoxicillin,Infections,4800,864,796,4868,0,No
+Rural Health Post B,2024-09,Paracetamol,General,9000,1800,1411,9389,0,No
+Rural Health Post B,2024-09,Ibuprofen,General,6000,1080,1016,6064,0,Yes
+Rural Health Post B,2024-09,ORS Sachets,Diarrhea,3000,648,604,3044,0,No
+Rural Health Post B,2024-09,Metronidazole,Infections,1800,360,250,1910,0,Yes
+Rural Health Post B,2024-09,Amlodipine,Hypertension,2400,432,373,2459,0,No
+Rural Health Post B,2024-09,Metformin,Diabetes,2100,396,331,2165,0,No
+Rural Health Post B,2024-09,Ciprofloxacin,Typhoid,1500,288,241,1547,0,No
+Rural Health Post B,2024-09,Azithromycin,Respiratory,1800,324,233,1891,0,No
+Rural Health Post B,2024-09,Salbutamol Inhaler,Asthma,900,180,165,915,0,No
+Rural Health Post B,2024-09,Hydrocortisone Cream,Skin,1200,252,187,1265,0,No
+Rural Health Post B,2024-09,Diclofenac,Arthritis,1500,288,250,1538,0,No
+Rural Health Post B,2024-09,Ambroxol Syrup,Respiratory,1800,360,283,1877,0,No
+Urban Primary Care,2024-09,Artemether-Lumefantrine,Malaria,5000,960,865,5095,0,No
+Urban Primary Care,2024-09,Quinine,Malaria,2000,360,332,2028,0,No
+Urban Primary Care,2024-09,Amoxicillin,Infections,8000,1440,1017,8423,0,No
+Urban Primary Care,2024-09,Paracetamol,General,15000,3000,2308,15692,0,No
+Urban Primary Care,2024-09,Ibuprofen,General,10000,1800,1332,10468,0,No
+Urban Primary Care,2024-09,ORS Sachets,Diarrhea,5000,1080,970,5110,0,No
+Urban Primary Care,2024-09,Metronidazole,Infections,3000,600,504,3096,0,No
+Urban Primary Care,2024-09,Amlodipine,Hypertension,4000,720,634,4086,0,No
+Urban Primary Care,2024-09,Metformin,Diabetes,3500,660,659,3501,0,No
+Urban Primary Care,2024-09,Ciprofloxacin,Typhoid,2500,480,335,2645,0,No
+Urban Primary Care,2024-09,Azithromycin,Respiratory,3000,540,515,3025,0,No
+Urban Primary Care,2024-09,Salbutamol Inhaler,Asthma,1500,300,269,1531,0,No
+Urban Primary Care,2024-09,Hydrocortisone Cream,Skin,2000,420,281,2139,0,No
+Urban Primary Care,2024-09,Diclofenac,Arthritis,2500,480,458,2522,0,No
+Urban Primary Care,2024-09,Ambroxol Syrup,Respiratory,3000,600,499,3101,0,No
+Community Wellness Center,2024-09,Artemether-Lumefantrine,Malaria,5000,960,795,5165,0,No
+Community Wellness Center,2024-09,Quinine,Malaria,2000,360,356,2004,0,No
+Community Wellness Center,2024-09,Amoxicillin,Infections,8000,1440,1231,8209,0,No
+Community Wellness Center,2024-09,Paracetamol,General,15000,3000,2384,15616,0,No
+Community Wellness Center,2024-09,Ibuprofen,General,10000,1800,1550,10250,0,No
+Community Wellness Center,2024-09,ORS Sachets,Diarrhea,5000,1080,808,5272,0,No
+Community Wellness Center,2024-09,Metronidazole,Infections,3000,600,580,3020,0,No
+Community Wellness Center,2024-09,Amlodipine,Hypertension,4000,720,616,4104,0,No
+Community Wellness Center,2024-09,Metformin,Diabetes,3500,660,633,3527,0,No
+Community Wellness Center,2024-09,Ciprofloxacin,Typhoid,2500,480,395,2585,0,No
+Community Wellness Center,2024-09,Azithromycin,Respiratory,3000,540,488,3052,0,No
+Community Wellness Center,2024-09,Salbutamol Inhaler,Asthma,1500,300,237,1563,0,No
+Community Wellness Center,2024-09,Hydrocortisone Cream,Skin,2000,420,362,2058,0,No
+Community Wellness Center,2024-09,Diclofenac,Arthritis,2500,480,323,2657,0,No
+Community Wellness Center,2024-09,Ambroxol Syrup,Respiratory,3000,600,427,3173,0,No
+District Referral Hospital,2024-09,Artemether-Lumefantrine,Malaria,7500,1440,1163,7777,0,No
+District Referral Hospital,2024-09,Quinine,Malaria,3000,540,452,3088,0,No
+District Referral Hospital,2024-09,Amoxicillin,Infections,12000,2160,2037,12123,0,No
+District Referral Hospital,2024-09,Paracetamol,General,22500,4500,4481,22519,0,No
+District Referral Hospital,2024-09,Ibuprofen,General,15000,2700,2472,15228,0,No
+District Referral Hospital,2024-09,ORS Sachets,Diarrhea,7500,1620,1081,8039,0,No
+District Referral Hospital,2024-09,Metronidazole,Infections,4500,900,876,4524,0,No
+District Referral Hospital,2024-09,Amlodipine,Hypertension,6000,1080,894,6186,0,No
+District Referral Hospital,2024-09,Metformin,Diabetes,5250,990,792,5448,0,No
+District Referral Hospital,2024-09,Ciprofloxacin,Typhoid,3750,720,673,3797,0,No
+District Referral Hospital,2024-09,Azithromycin,Respiratory,4500,810,706,4604,0,No
+District Referral Hospital,2024-09,Salbutamol Inhaler,Asthma,2250,450,375,2325,0,No
+District Referral Hospital,2024-09,Hydrocortisone Cream,Skin,3000,630,555,3075,0,No
+District Referral Hospital,2024-09,Diclofenac,Arthritis,3750,720,717,3753,0,No
+District Referral Hospital,2024-09,Ambroxol Syrup,Respiratory,4500,900,645,4755,0,No
+Central County Hospital,2024-10,Artemether-Lumefantrine,Malaria,7500,1440,1245,7695,0,No
+Central County Hospital,2024-10,Quinine,Malaria,3000,540,412,3128,0,No
+Central County Hospital,2024-10,Amoxicillin,Infections,12000,2160,1867,12293,0,No
+Central County Hospital,2024-10,Paracetamol,General,22500,4500,3444,23556,0,No
+Central County Hospital,2024-10,Ibuprofen,General,15000,2700,2408,15292,0,No
+Central County Hospital,2024-10,ORS Sachets,Diarrhea,7500,1620,1097,8023,0,No
+Central County Hospital,2024-10,Metronidazole,Infections,4500,900,601,4799,0,No
+Central County Hospital,2024-10,Amlodipine,Hypertension,6000,1080,1043,6037,0,No
+Central County Hospital,2024-10,Metformin,Diabetes,5250,990,893,5347,0,No
+Central County Hospital,2024-10,Ciprofloxacin,Typhoid,3750,720,485,3985,0,No
+Central County Hospital,2024-10,Azithromycin,Respiratory,4500,810,696,4614,0,No
+Central County Hospital,2024-10,Salbutamol Inhaler,Asthma,2250,450,330,2370,0,No
+Central County Hospital,2024-10,Hydrocortisone Cream,Skin,3000,630,545,3085,0,No
+Central County Hospital,2024-10,Diclofenac,Arthritis,3750,720,531,3939,0,No
+Central County Hospital,2024-10,Ambroxol Syrup,Respiratory,4500,900,727,4673,0,No
+Eastside Health Center,2024-10,Artemether-Lumefantrine,Malaria,5000,960,708,5252,0,No
+Eastside Health Center,2024-10,Quinine,Malaria,2000,360,317,2043,0,No
+Eastside Health Center,2024-10,Amoxicillin,Infections,8000,1440,1199,8241,0,No
+Eastside Health Center,2024-10,Paracetamol,General,15000,3000,2048,15952,0,No
+Eastside Health Center,2024-10,Ibuprofen,General,10000,1800,1655,10145,0,No
+Eastside Health Center,2024-10,ORS Sachets,Diarrhea,5000,1080,1077,5003,0,No
+Eastside Health Center,2024-10,Metronidazole,Infections,3000,600,535,3065,0,No
+Eastside Health Center,2024-10,Amlodipine,Hypertension,4000,720,638,4082,0,No
+Eastside Health Center,2024-10,Metformin,Diabetes,3500,660,657,3503,0,No
+Eastside Health Center,2024-10,Ciprofloxacin,Typhoid,2500,480,418,2562,0,Yes
+Eastside Health Center,2024-10,Azithromycin,Respiratory,3000,540,477,3063,0,No
+Eastside Health Center,2024-10,Salbutamol Inhaler,Asthma,1500,300,289,1511,0,No
+Eastside Health Center,2024-10,Hydrocortisone Cream,Skin,2000,420,364,2056,0,No
+Eastside Health Center,2024-10,Diclofenac,Arthritis,2500,480,363,2617,0,No
+Eastside Health Center,2024-10,Ambroxol Syrup,Respiratory,3000,600,597,3003,0,No
+Westgate Clinic,2024-10,Artemether-Lumefantrine,Malaria,5000,960,849,5111,0,No
+Westgate Clinic,2024-10,Quinine,Malaria,2000,360,340,2020,0,No
+Westgate Clinic,2024-10,Amoxicillin,Infections,8000,1440,1346,8094,0,No
+Westgate Clinic,2024-10,Paracetamol,General,15000,3000,2747,15253,0,No
+Westgate Clinic,2024-10,Ibuprofen,General,10000,1800,1661,10139,0,No
+Westgate Clinic,2024-10,ORS Sachets,Diarrhea,5000,1080,926,5154,0,No
+Westgate Clinic,2024-10,Metronidazole,Infections,3000,600,408,3192,0,No
+Westgate Clinic,2024-10,Amlodipine,Hypertension,4000,720,586,4134,0,No
+Westgate Clinic,2024-10,Metformin,Diabetes,3500,660,558,3602,0,No
+Westgate Clinic,2024-10,Ciprofloxacin,Typhoid,2500,480,440,2540,0,No
+Westgate Clinic,2024-10,Azithromycin,Respiratory,3000,540,482,3058,0,No
+Westgate Clinic,2024-10,Salbutamol Inhaler,Asthma,1500,300,230,1570,0,No
+Westgate Clinic,2024-10,Hydrocortisone Cream,Skin,2000,420,295,2125,0,No
+Westgate Clinic,2024-10,Diclofenac,Arthritis,2500,480,446,2534,0,No
+Westgate Clinic,2024-10,Ambroxol Syrup,Respiratory,3000,600,584,3016,0,No
+Northview Medical Center,2024-10,Artemether-Lumefantrine,Malaria,5000,960,746,5214,0,No
+Northview Medical Center,2024-10,Quinine,Malaria,2000,360,328,2032,0,No
+Northview Medical Center,2024-10,Amoxicillin,Infections,8000,1440,1390,8050,0,No
+Northview Medical Center,2024-10,Paracetamol,General,15000,3000,2238,15762,0,No
+Northview Medical Center,2024-10,Ibuprofen,General,10000,1800,1565,10235,0,No
+Northview Medical Center,2024-10,ORS Sachets,Diarrhea,5000,1080,1000,5080,0,No
+Northview Medical Center,2024-10,Metronidazole,Infections,3000,600,402,3198,0,No
+Northview Medical Center,2024-10,Amlodipine,Hypertension,4000,720,480,4240,0,No
+Northview Medical Center,2024-10,Metformin,Diabetes,3500,660,585,3575,0,No
+Northview Medical Center,2024-10,Ciprofloxacin,Typhoid,2500,480,345,2635,0,No
+Northview Medical Center,2024-10,Azithromycin,Respiratory,3000,540,388,3152,0,No
+Northview Medical Center,2024-10,Salbutamol Inhaler,Asthma,1500,300,221,1579,0,No
+Northview Medical Center,2024-10,Hydrocortisone Cream,Skin,2000,420,363,2057,0,No
+Northview Medical Center,2024-10,Diclofenac,Arthritis,2500,480,445,2535,0,No
+Northview Medical Center,2024-10,Ambroxol Syrup,Respiratory,3000,600,564,3036,0,No
+Southside Community Clinic,2024-10,Artemether-Lumefantrine,Malaria,5000,960,913,5047,0,No
+Southside Community Clinic,2024-10,Quinine,Malaria,2000,360,273,2087,0,No
+Southside Community Clinic,2024-10,Amoxicillin,Infections,8000,1440,1176,8264,0,No
+Southside Community Clinic,2024-10,Paracetamol,General,15000,3000,2951,15049,0,No
+Southside Community Clinic,2024-10,Ibuprofen,General,10000,1800,1545,10255,0,No
+Southside Community Clinic,2024-10,ORS Sachets,Diarrhea,5000,1080,1077,5003,0,No
+Southside Community Clinic,2024-10,Metronidazole,Infections,3000,600,514,3086,0,No
+Southside Community Clinic,2024-10,Amlodipine,Hypertension,4000,720,624,4096,0,No
+Southside Community Clinic,2024-10,Metformin,Diabetes,3500,660,581,3579,0,No
+Southside Community Clinic,2024-10,Ciprofloxacin,Typhoid,2500,480,394,2586,0,No
+Southside Community Clinic,2024-10,Azithromycin,Respiratory,3000,540,501,3039,0,No
+Southside Community Clinic,2024-10,Salbutamol Inhaler,Asthma,1500,300,252,1548,0,No
+Southside Community Clinic,2024-10,Hydrocortisone Cream,Skin,2000,420,304,2116,0,No
+Southside Community Clinic,2024-10,Diclofenac,Arthritis,2500,480,423,2557,0,No
+Southside Community Clinic,2024-10,Ambroxol Syrup,Respiratory,3000,600,507,3093,0,No
+Rural Health Post A,2024-10,Artemether-Lumefantrine,Malaria,3000,576,547,3029,0,No
+Rural Health Post A,2024-10,Quinine,Malaria,1200,216,174,1242,0,No
+Rural Health Post A,2024-10,Amoxicillin,Infections,4800,864,686,4978,0,No
+Rural Health Post A,2024-10,Paracetamol,General,9000,1800,1292,9508,0,No
+Rural Health Post A,2024-10,Ibuprofen,General,6000,1080,1061,6019,0,No
+Rural Health Post A,2024-10,ORS Sachets,Diarrhea,3000,648,573,3075,0,No
+Rural Health Post A,2024-10,Metronidazole,Infections,1800,360,319,1841,0,No
+Rural Health Post A,2024-10,Amlodipine,Hypertension,2400,432,337,2495,0,No
+Rural Health Post A,2024-10,Metformin,Diabetes,2100,396,342,2154,0,No
+Rural Health Post A,2024-10,Ciprofloxacin,Typhoid,1500,288,195,1593,0,No
+Rural Health Post A,2024-10,Azithromycin,Respiratory,1800,324,263,1861,0,No
+Rural Health Post A,2024-10,Salbutamol Inhaler,Asthma,900,180,166,914,0,No
+Rural Health Post A,2024-10,Hydrocortisone Cream,Skin,1200,252,233,1219,0,No
+Rural Health Post A,2024-10,Diclofenac,Arthritis,1500,288,228,1560,0,No
+Rural Health Post A,2024-10,Ambroxol Syrup,Respiratory,1800,360,336,1824,0,No
+Rural Health Post B,2024-10,Artemether-Lumefantrine,Malaria,3000,576,393,3183,0,No
+Rural Health Post B,2024-10,Quinine,Malaria,1200,216,179,1237,0,No
+Rural Health Post B,2024-10,Amoxicillin,Infections,4800,864,727,4937,0,No
+Rural Health Post B,2024-10,Paracetamol,General,9000,1800,1424,9376,0,No
+Rural Health Post B,2024-10,Ibuprofen,General,6000,1080,963,6117,0,No
+Rural Health Post B,2024-10,ORS Sachets,Diarrhea,3000,648,574,3074,0,No
+Rural Health Post B,2024-10,Metronidazole,Infections,1800,360,264,1896,0,No
+Rural Health Post B,2024-10,Amlodipine,Hypertension,2400,432,429,2403,0,No
+Rural Health Post B,2024-10,Metformin,Diabetes,2100,396,303,2193,0,No
+Rural Health Post B,2024-10,Ciprofloxacin,Typhoid,1500,288,247,1541,0,No
+Rural Health Post B,2024-10,Azithromycin,Respiratory,1800,324,322,1802,0,No
+Rural Health Post B,2024-10,Salbutamol Inhaler,Asthma,900,180,172,908,0,No
+Rural Health Post B,2024-10,Hydrocortisone Cream,Skin,1200,252,183,1269,0,No
+Rural Health Post B,2024-10,Diclofenac,Arthritis,1500,288,235,1553,0,No
+Rural Health Post B,2024-10,Ambroxol Syrup,Respiratory,1800,360,334,1826,0,No
+Urban Primary Care,2024-10,Artemether-Lumefantrine,Malaria,5000,960,924,5036,0,No
+Urban Primary Care,2024-10,Quinine,Malaria,2000,360,306,2054,0,No
+Urban Primary Care,2024-10,Amoxicillin,Infections,8000,1440,994,8446,0,No
+Urban Primary Care,2024-10,Paracetamol,General,15000,3000,2315,15685,0,No
+Urban Primary Care,2024-10,Ibuprofen,General,10000,1800,1652,10148,0,No
+Urban Primary Care,2024-10,ORS Sachets,Diarrhea,5000,1080,888,5192,0,No
+Urban Primary Care,2024-10,Metronidazole,Infections,3000,600,530,3070,0,No
+Urban Primary Care,2024-10,Amlodipine,Hypertension,4000,720,593,4127,0,No
+Urban Primary Care,2024-10,Metformin,Diabetes,3500,660,598,3562,0,No
+Urban Primary Care,2024-10,Ciprofloxacin,Typhoid,2500,480,340,2640,0,No
+Urban Primary Care,2024-10,Azithromycin,Respiratory,3000,540,372,3168,0,No
+Urban Primary Care,2024-10,Salbutamol Inhaler,Asthma,1500,300,227,1573,0,No
+Urban Primary Care,2024-10,Hydrocortisone Cream,Skin,2000,420,341,2079,0,No
+Urban Primary Care,2024-10,Diclofenac,Arthritis,2500,480,375,2605,0,No
+Urban Primary Care,2024-10,Ambroxol Syrup,Respiratory,3000,600,416,3184,0,No
+Community Wellness Center,2024-10,Artemether-Lumefantrine,Malaria,5000,960,748,5212,0,No
+Community Wellness Center,2024-10,Quinine,Malaria,2000,360,300,2060,0,No
+Community Wellness Center,2024-10,Amoxicillin,Infections,8000,1440,1402,8038,0,No
+Community Wellness Center,2024-10,Paracetamol,General,15000,3000,2382,15618,0,No
+Community Wellness Center,2024-10,Ibuprofen,General,10000,1800,1222,10578,0,No
+Community Wellness Center,2024-10,ORS Sachets,Diarrhea,5000,1080,908,5172,0,No
+Community Wellness Center,2024-10,Metronidazole,Infections,3000,600,412,3188,0,No
+Community Wellness Center,2024-10,Amlodipine,Hypertension,4000,720,534,4186,0,No
+Community Wellness Center,2024-10,Metformin,Diabetes,3500,660,639,3521,0,No
+Community Wellness Center,2024-10,Ciprofloxacin,Typhoid,2500,480,396,2584,0,No
+Community Wellness Center,2024-10,Azithromycin,Respiratory,3000,540,410,3130,0,No
+Community Wellness Center,2024-10,Salbutamol Inhaler,Asthma,1500,300,239,1561,0,No
+Community Wellness Center,2024-10,Hydrocortisone Cream,Skin,2000,420,283,2137,0,No
+Community Wellness Center,2024-10,Diclofenac,Arthritis,2500,480,476,2504,0,No
+Community Wellness Center,2024-10,Ambroxol Syrup,Respiratory,3000,600,417,3183,0,No
+District Referral Hospital,2024-10,Artemether-Lumefantrine,Malaria,7500,1440,1358,7582,0,No
+District Referral Hospital,2024-10,Quinine,Malaria,3000,540,399,3141,0,No
+District Referral Hospital,2024-10,Amoxicillin,Infections,12000,2160,1725,12435,0,No
+District Referral Hospital,2024-10,Paracetamol,General,22500,4500,4261,22739,0,No
+District Referral Hospital,2024-10,Ibuprofen,General,15000,2700,2662,15038,0,No
+District Referral Hospital,2024-10,ORS Sachets,Diarrhea,7500,1620,1431,7689,0,No
+District Referral Hospital,2024-10,Metronidazole,Infections,4500,900,857,4543,0,No
+District Referral Hospital,2024-10,Amlodipine,Hypertension,6000,1080,936,6144,0,No
+District Referral Hospital,2024-10,Metformin,Diabetes,5250,990,969,5271,0,No
+District Referral Hospital,2024-10,Ciprofloxacin,Typhoid,3750,720,487,3983,0,No
+District Referral Hospital,2024-10,Azithromycin,Respiratory,4500,810,632,4678,0,No
+District Referral Hospital,2024-10,Salbutamol Inhaler,Asthma,2250,450,429,2271,0,No
+District Referral Hospital,2024-10,Hydrocortisone Cream,Skin,3000,630,628,3002,0,No
+District Referral Hospital,2024-10,Diclofenac,Arthritis,3750,720,571,3899,0,No
+District Referral Hospital,2024-10,Ambroxol Syrup,Respiratory,4500,900,838,4562,0,No
+Central County Hospital,2024-11,Artemether-Lumefantrine,Malaria,7500,1440,2301,6639,0,No
+Central County Hospital,2024-11,Quinine,Malaria,3000,540,758,2782,0,No
+Central County Hospital,2024-11,Amoxicillin,Infections,12000,2160,2003,12157,0,No
+Central County Hospital,2024-11,Paracetamol,General,22500,4500,3599,23401,0,No
+Central County Hospital,2024-11,Ibuprofen,General,15000,2700,2513,15187,0,No
+Central County Hospital,2024-11,ORS Sachets,Diarrhea,7500,1620,1123,7997,0,No
+Central County Hospital,2024-11,Metronidazole,Infections,4500,900,715,4685,0,No
+Central County Hospital,2024-11,Amlodipine,Hypertension,6000,1080,809,6271,0,No
+Central County Hospital,2024-11,Metformin,Diabetes,5250,990,725,5515,0,No
+Central County Hospital,2024-11,Ciprofloxacin,Typhoid,3750,720,596,3874,0,No
+Central County Hospital,2024-11,Azithromycin,Respiratory,4500,810,694,4616,0,No
+Central County Hospital,2024-11,Salbutamol Inhaler,Asthma,2250,450,360,2340,0,No
+Central County Hospital,2024-11,Hydrocortisone Cream,Skin,3000,630,522,3108,0,No
+Central County Hospital,2024-11,Diclofenac,Arthritis,3750,720,683,3787,0,No
+Central County Hospital,2024-11,Ambroxol Syrup,Respiratory,4500,900,864,4536,0,No
+Eastside Health Center,2024-11,Artemether-Lumefantrine,Malaria,5000,960,1332,4628,0,No
+Eastside Health Center,2024-11,Quinine,Malaria,2000,360,719,1641,0,No
+Eastside Health Center,2024-11,Amoxicillin,Infections,8000,1440,1141,8299,0,No
+Eastside Health Center,2024-11,Paracetamol,General,15000,3000,2490,15510,0,No
+Eastside Health Center,2024-11,Ibuprofen,General,10000,1800,1520,10280,0,No
+Eastside Health Center,2024-11,ORS Sachets,Diarrhea,5000,1080,887,5193,0,No
+Eastside Health Center,2024-11,Metronidazole,Infections,3000,600,495,3105,0,No
+Eastside Health Center,2024-11,Amlodipine,Hypertension,4000,720,596,4124,0,No
+Eastside Health Center,2024-11,Metformin,Diabetes,3500,660,488,3672,0,No
+Eastside Health Center,2024-11,Ciprofloxacin,Typhoid,2500,480,331,2649,0,No
+Eastside Health Center,2024-11,Azithromycin,Respiratory,3000,540,427,3113,0,No
+Eastside Health Center,2024-11,Salbutamol Inhaler,Asthma,1500,300,281,1519,0,No
+Eastside Health Center,2024-11,Hydrocortisone Cream,Skin,2000,420,374,2046,0,No
+Eastside Health Center,2024-11,Diclofenac,Arthritis,2500,480,359,2621,0,No
+Eastside Health Center,2024-11,Ambroxol Syrup,Respiratory,3000,600,547,3053,0,No
+Westgate Clinic,2024-11,Artemether-Lumefantrine,Malaria,5000,960,1356,4604,0,No
+Westgate Clinic,2024-11,Quinine,Malaria,2000,360,638,1722,0,No
+Westgate Clinic,2024-11,Amoxicillin,Infections,8000,1440,1318,8122,0,No
+Westgate Clinic,2024-11,Paracetamol,General,15000,3000,2125,15875,0,No
+Westgate Clinic,2024-11,Ibuprofen,General,10000,1800,1581,10219,0,No
+Westgate Clinic,2024-11,ORS Sachets,Diarrhea,5000,1080,942,5138,0,No
+Westgate Clinic,2024-11,Metronidazole,Infections,3000,600,446,3154,0,No
+Westgate Clinic,2024-11,Amlodipine,Hypertension,4000,720,651,4069,0,No
+Westgate Clinic,2024-11,Metformin,Diabetes,3500,660,655,3505,0,No
+Westgate Clinic,2024-11,Ciprofloxacin,Typhoid,2500,480,407,2573,0,No
+Westgate Clinic,2024-11,Azithromycin,Respiratory,3000,540,472,3068,0,No
+Westgate Clinic,2024-11,Salbutamol Inhaler,Asthma,1500,300,219,1581,0,No
+Westgate Clinic,2024-11,Hydrocortisone Cream,Skin,2000,420,389,2031,0,No
+Westgate Clinic,2024-11,Diclofenac,Arthritis,2500,480,450,2530,0,No
+Westgate Clinic,2024-11,Ambroxol Syrup,Respiratory,3000,600,476,3124,0,Yes
+Northview Medical Center,2024-11,Artemether-Lumefantrine,Malaria,5000,960,1704,4256,0,No
+Northview Medical Center,2024-11,Quinine,Malaria,2000,360,648,1712,0,No
+Northview Medical Center,2024-11,Amoxicillin,Infections,8000,1440,1014,8426,0,No
+Northview Medical Center,2024-11,Paracetamol,General,15000,3000,2916,15084,0,No
+Northview Medical Center,2024-11,Ibuprofen,General,10000,1800,1409,10391,0,No
+Northview Medical Center,2024-11,ORS Sachets,Diarrhea,5000,1080,746,5334,0,Yes
+Northview Medical Center,2024-11,Metronidazole,Infections,3000,600,439,3161,0,No
+Northview Medical Center,2024-11,Amlodipine,Hypertension,4000,720,683,4037,0,No
+Northview Medical Center,2024-11,Metformin,Diabetes,3500,660,527,3633,0,No
+Northview Medical Center,2024-11,Ciprofloxacin,Typhoid,2500,480,371,2609,0,No
+Northview Medical Center,2024-11,Azithromycin,Respiratory,3000,540,404,3136,0,No
+Northview Medical Center,2024-11,Salbutamol Inhaler,Asthma,1500,300,254,1546,0,No
+Northview Medical Center,2024-11,Hydrocortisone Cream,Skin,2000,420,282,2138,0,No
+Northview Medical Center,2024-11,Diclofenac,Arthritis,2500,480,325,2655,0,No
+Northview Medical Center,2024-11,Ambroxol Syrup,Respiratory,3000,600,592,3008,0,No
+Southside Community Clinic,2024-11,Artemether-Lumefantrine,Malaria,5000,960,1469,4491,0,No
+Southside Community Clinic,2024-11,Quinine,Malaria,2000,360,484,1876,0,No
+Southside Community Clinic,2024-11,Amoxicillin,Infections,8000,1440,1146,8294,0,Yes
+Southside Community Clinic,2024-11,Paracetamol,General,15000,3000,2804,15196,0,No
+Southside Community Clinic,2024-11,Ibuprofen,General,10000,1800,1314,10486,0,No
+Southside Community Clinic,2024-11,ORS Sachets,Diarrhea,5000,1080,935,5145,0,No
+Southside Community Clinic,2024-11,Metronidazole,Infections,3000,600,433,3167,0,No
+Southside Community Clinic,2024-11,Amlodipine,Hypertension,4000,720,688,4032,0,No
+Southside Community Clinic,2024-11,Metformin,Diabetes,3500,660,557,3603,0,No
+Southside Community Clinic,2024-11,Ciprofloxacin,Typhoid,2500,480,443,2537,0,No
+Southside Community Clinic,2024-11,Azithromycin,Respiratory,3000,540,528,3012,0,No
+Southside Community Clinic,2024-11,Salbutamol Inhaler,Asthma,1500,300,256,1544,0,No
+Southside Community Clinic,2024-11,Hydrocortisone Cream,Skin,2000,420,414,2006,0,No
+Southside Community Clinic,2024-11,Diclofenac,Arthritis,2500,480,336,2644,0,No
+Southside Community Clinic,2024-11,Ambroxol Syrup,Respiratory,3000,600,433,3167,0,No
+Rural Health Post A,2024-11,Artemether-Lumefantrine,Malaria,3000,576,1075,2501,0,No
+Rural Health Post A,2024-11,Quinine,Malaria,1200,216,366,1050,0,No
+Rural Health Post A,2024-11,Amoxicillin,Infections,4800,864,698,4966,0,No
+Rural Health Post A,2024-11,Paracetamol,General,9000,1800,1253,9547,0,No
+Rural Health Post A,2024-11,Ibuprofen,General,6000,1080,1008,6072,0,No
+Rural Health Post A,2024-11,ORS Sachets,Diarrhea,3000,648,522,3126,0,No
+Rural Health Post A,2024-11,Metronidazole,Infections,1800,360,244,1916,0,No
+Rural Health Post A,2024-11,Amlodipine,Hypertension,2400,432,417,2415,0,No
+Rural Health Post A,2024-11,Metformin,Diabetes,2100,396,302,2194,0,No
+Rural Health Post A,2024-11,Ciprofloxacin,Typhoid,1500,288,244,1544,0,No
+Rural Health Post A,2024-11,Azithromycin,Respiratory,1800,324,221,1903,0,No
+Rural Health Post A,2024-11,Salbutamol Inhaler,Asthma,900,180,149,931,0,No
+Rural Health Post A,2024-11,Hydrocortisone Cream,Skin,1200,252,225,1227,0,No
+Rural Health Post A,2024-11,Diclofenac,Arthritis,1500,288,238,1550,0,No
+Rural Health Post A,2024-11,Ambroxol Syrup,Respiratory,1800,360,352,1808,0,No
+Rural Health Post B,2024-11,Artemether-Lumefantrine,Malaria,3000,576,887,2689,0,No
+Rural Health Post B,2024-11,Quinine,Malaria,1200,216,420,996,0,No
+Rural Health Post B,2024-11,Amoxicillin,Infections,4800,864,600,5064,0,No
+Rural Health Post B,2024-11,Paracetamol,General,9000,1800,1754,9046,0,No
+Rural Health Post B,2024-11,Ibuprofen,General,6000,1080,858,6222,0,No
+Rural Health Post B,2024-11,ORS Sachets,Diarrhea,3000,648,619,3029,0,No
+Rural Health Post B,2024-11,Metronidazole,Infections,1800,360,328,1832,0,No
+Rural Health Post B,2024-11,Amlodipine,Hypertension,2400,432,312,2520,0,No
+Rural Health Post B,2024-11,Metformin,Diabetes,2100,396,278,2218,0,No
+Rural Health Post B,2024-11,Ciprofloxacin,Typhoid,1500,288,201,1587,0,No
+Rural Health Post B,2024-11,Azithromycin,Respiratory,1800,324,217,1907,0,No
+Rural Health Post B,2024-11,Salbutamol Inhaler,Asthma,900,180,137,943,0,No
+Rural Health Post B,2024-11,Hydrocortisone Cream,Skin,1200,252,201,1251,0,No
+Rural Health Post B,2024-11,Diclofenac,Arthritis,1500,288,281,1507,0,No
+Rural Health Post B,2024-11,Ambroxol Syrup,Respiratory,1800,360,241,1919,0,No
+Urban Primary Care,2024-11,Artemether-Lumefantrine,Malaria,5000,960,1773,4187,0,No
+Urban Primary Care,2024-11,Quinine,Malaria,2000,360,524,1836,0,No
+Urban Primary Care,2024-11,Amoxicillin,Infections,8000,1440,1009,8431,0,No
+Urban Primary Care,2024-11,Paracetamol,General,15000,3000,2546,15454,0,No
+Urban Primary Care,2024-11,Ibuprofen,General,10000,1800,1661,10139,0,No
+Urban Primary Care,2024-11,ORS Sachets,Diarrhea,5000,1080,992,5088,0,No
+Urban Primary Care,2024-11,Metronidazole,Infections,3000,600,541,3059,0,No
+Urban Primary Care,2024-11,Amlodipine,Hypertension,4000,720,685,4035,0,No
+Urban Primary Care,2024-11,Metformin,Diabetes,3500,660,556,3604,0,No
+Urban Primary Care,2024-11,Ciprofloxacin,Typhoid,2500,480,434,2546,0,No
+Urban Primary Care,2024-11,Azithromycin,Respiratory,3000,540,485,3055,0,No
+Urban Primary Care,2024-11,Salbutamol Inhaler,Asthma,1500,300,241,1559,0,No
+Urban Primary Care,2024-11,Hydrocortisone Cream,Skin,2000,420,302,2118,0,No
+Urban Primary Care,2024-11,Diclofenac,Arthritis,2500,480,324,2656,0,No
+Urban Primary Care,2024-11,Ambroxol Syrup,Respiratory,3000,600,599,3001,0,No
+Community Wellness Center,2024-11,Artemether-Lumefantrine,Malaria,5000,960,1503,4457,0,No
+Community Wellness Center,2024-11,Quinine,Malaria,2000,360,542,1818,0,No
+Community Wellness Center,2024-11,Amoxicillin,Infections,8000,1440,1114,8326,0,No
+Community Wellness Center,2024-11,Paracetamol,General,15000,3000,2914,15086,0,No
+Community Wellness Center,2024-11,Ibuprofen,General,10000,1800,1677,10123,0,No
+Community Wellness Center,2024-11,ORS Sachets,Diarrhea,5000,1080,856,5224,0,No
+Community Wellness Center,2024-11,Metronidazole,Infections,3000,600,509,3091,0,No
+Community Wellness Center,2024-11,Amlodipine,Hypertension,4000,720,583,4137,0,No
+Community Wellness Center,2024-11,Metformin,Diabetes,3500,660,497,3663,0,No
+Community Wellness Center,2024-11,Ciprofloxacin,Typhoid,2500,480,441,2539,0,No
+Community Wellness Center,2024-11,Azithromycin,Respiratory,3000,540,490,3050,0,No
+Community Wellness Center,2024-11,Salbutamol Inhaler,Asthma,1500,300,209,1591,0,No
+Community Wellness Center,2024-11,Hydrocortisone Cream,Skin,2000,420,325,2095,0,No
+Community Wellness Center,2024-11,Diclofenac,Arthritis,2500,480,452,2528,0,Yes
+Community Wellness Center,2024-11,Ambroxol Syrup,Respiratory,3000,600,522,3078,0,No
+District Referral Hospital,2024-11,Artemether-Lumefantrine,Malaria,7500,1440,2074,6866,0,No
+District Referral Hospital,2024-11,Quinine,Malaria,3000,540,996,2544,0,No
+District Referral Hospital,2024-11,Amoxicillin,Infections,12000,2160,1897,12263,0,No
+District Referral Hospital,2024-11,Paracetamol,General,22500,4500,3181,23819,0,No
+District Referral Hospital,2024-11,Ibuprofen,General,15000,2700,2110,15590,0,No
+District Referral Hospital,2024-11,ORS Sachets,Diarrhea,7500,1620,1163,7957,0,No
+District Referral Hospital,2024-11,Metronidazole,Infections,4500,900,608,4792,0,No
+District Referral Hospital,2024-11,Amlodipine,Hypertension,6000,1080,774,6306,0,No
+District Referral Hospital,2024-11,Metformin,Diabetes,5250,990,767,5473,0,No
+District Referral Hospital,2024-11,Ciprofloxacin,Typhoid,3750,720,714,3756,0,No
+District Referral Hospital,2024-11,Azithromycin,Respiratory,4500,810,717,4593,0,Yes
+District Referral Hospital,2024-11,Salbutamol Inhaler,Asthma,2250,450,425,2275,0,No
+District Referral Hospital,2024-11,Hydrocortisone Cream,Skin,3000,630,535,3095,0,Yes
+District Referral Hospital,2024-11,Diclofenac,Arthritis,3750,720,654,3816,0,No
+District Referral Hospital,2024-11,Ambroxol Syrup,Respiratory,4500,900,713,4687,0,No
