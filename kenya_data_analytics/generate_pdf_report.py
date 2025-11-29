@@ -173,23 +173,33 @@ class PDFGenerator:
         self.story.append(Paragraph("Table of Contents", self.styles['CustomHeading1']))
         self.story.append(Spacer(1, 0.3*inch))
         
+        # Define TOC items with exact bookmark keys matching section titles
+        # Only major sections (level 1)
         toc_items = [
-            "1. Executive Summary",
-            "2. Project Structure",
-            "3. Component 1: Hadoop MapReduce - County Demographics",
-            "4. Component 2: Spark Batch Analytics - Comprehensive Analysis",
-            "5. Component 3: Spark Streaming - Nairobi Traffic Monitoring",
-            "6. Component 4: Spark SQL - Agricultural Production Analysis",
-            "7. Key Findings and Results",
-            "8. Source Code Listings",
-            "9. MapReduce Output Results",
-            "10. Production Deployment Guide",
-            "11. Conclusion and Future Work"
+            ('Executive Summary', '1._Executive_Summary'),
+            ('Project Structure', '2._Project_Structure'),
+            ('Hadoop MapReduce - County Demographics', '3._Hadoop_MapReduce_-_County_Demographics'),
+            ('Spark Batch Analytics', '4._Spark_Batch_Analytics_-_Comprehensive_Analysis'),
+            ('Spark Streaming - Nairobi Traffic', '5._Spark_Streaming_-_Nairobi_Traffic_Monitoring'),
+            ('Spark SQL - Agricultural Analysis', '6._Spark_SQL_-_Agricultural_Production_Analysis'),
+            ('Key Findings and Results', '7._Key_Findings_and_Results'),
+            ('Production Deployment Guide', '8._Production_Deployment_Guide'),
+            ('Conclusion and Future Work', '9._Conclusion_and_Future_Work')
         ]
         
-        for item in toc_items:
-            self.story.append(Paragraph(item, self.styles['Normal']))
-            self.story.append(Spacer(1, 0.1*inch))
+        # Add each TOC item as a clickable link
+        toc_style = ParagraphStyle(
+            name='TOCEntry',
+            parent=self.styles['Normal'],
+            fontSize=11,
+            leftIndent=20,
+            spaceBefore=6,
+            textColor=HexColor('#2e5c8a')
+        )
+        
+        for idx, (title, key) in enumerate(toc_items, 1):
+            link_text = f'{idx}. <link href="#{key}" color="blue">{title}</link>'
+            self.story.append(Paragraph(link_text, toc_style))
         
         self.story.append(PageBreak())
         
@@ -201,7 +211,14 @@ class PDFGenerator:
             3: 'CustomHeading3'
         }
         
-        self.story.append(Paragraph(title, self.styles[style_map.get(level, 'CustomHeading1')]))
+        # Create a bookmark key from title
+        key = title.replace(' ', '_').replace(':', '').replace('/', '')
+        
+        # Add heading with bookmark anchor
+        heading_style = self.styles[style_map.get(level, 'CustomHeading1')]
+        heading_text = f'<a name="{key}"/>{title}'
+        heading_para = Paragraph(heading_text, heading_style)
+        self.story.append(heading_para)
         
         # Process content - convert markdown-style formatting
         content = content.replace('**', '<b>').replace('**', '</b>')
