@@ -1,0 +1,65 @@
+======================================================================
+KENYA COUNTY DEMOGRAPHICS - MAPREDUCE ANALYSIS
+======================================================================
+
+SUMMARY STATISTICS
+Counties Processed:                 47
+Total Population:                   47,897,217
+Total Area (sq km):                 588,749.20
+Population Density (per sq km):     81.35
+
+URBAN VS RURAL
+Urban Population:                   16,693,045
+Rural Population:                   31,204,172
+Urbanization Rate:                  34.85%
+
+GENDER DISTRIBUTION
+Male Population:                    24,053,285
+Female Population:                  23,843,932
+Gender Ratio (M per 100 F):         100.88
+
+HOUSEHOLDS
+Total Households:                   10,101,340
+Average Household Size:             4.74
+
+EDUCATION & ECONOMY
+Average Literacy Rate:              74.11%
+Average GDP per Capita (KSh):       58,574.47
+
+HIGH LITERACY COUNTIES (>80%)
+  - Nairobi                        93.8%
+  - Kiambu                         92.1%
+  - Nyeri                          91.2%
+  - Mombasa                        89.5%
+  - Kirinyaga                      88.7%
+  - Uasin Gishu                    88.4%
+  - Kisumu                         87.9%
+  - Nakuru                         87.6%
+  - Embu                           87.3%
+  - Murang'a                       86.9%
+  - Tharaka Nithi                  85.6%
+  - Vihiga                         85.2%
+  - Laikipia                       84.9%
+  - Machakos                       84.8%
+  - Kisii                          84.6%
+  - Kericho                        83.5%
+  - Meru                           83.2%
+  - Nyamira                        82.8%
+  - Nyandarua                      82.5%
+  - Kajiado                        82.3%
+  - Kakamega                       82.1%
+  - Nandi                          81.7%
+  - Taita Taveta                   81.5%
+  - Siaya                          80.4%
+
+LOW LITERACY COUNTIES (<60%)
+  - Mandera                        18.5%
+  - Wajir                          24.1%
+  - Garissa                        32.8%
+  - Turkana                        34.5%
+  - Samburu                        48.6%
+  - Marsabit                       52.3%
+  - West Pokot                     52.8%
+  - Tana River                     55.2%
+
+======================================================================

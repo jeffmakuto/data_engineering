@@ -1,0 +1,86 @@
+timestamp,junction_name,junction_id,latitude,longitude,vehicle_count,avg_speed_kmh,congestion_level,weather_condition
+2024-01-15 06:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,145,45,Low,Clear
+2024-01-15 06:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,98,52,Low,Clear
+2024-01-15 06:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,112,48,Low,Clear
+2024-01-15 06:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,87,55,Low,Clear
+2024-01-15 06:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,76,58,Low,Clear
+2024-01-15 07:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,456,28,High,Clear
+2024-01-15 07:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,378,32,High,Clear
+2024-01-15 07:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,521,25,Critical,Clear
+2024-01-15 07:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,412,30,High,Clear
+2024-01-15 07:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,298,35,Medium,Clear
+2024-01-15 08:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,612,18,Critical,Clear
+2024-01-15 08:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,534,22,Critical,Clear
+2024-01-15 08:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,687,15,Critical,Cloudy
+2024-01-15 08:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,567,20,Critical,Cloudy
+2024-01-15 08:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,423,28,High,Cloudy
+2024-01-15 09:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,489,25,High,Cloudy
+2024-01-15 09:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,412,30,High,Cloudy
+2024-01-15 09:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,534,28,High,Cloudy
+2024-01-15 09:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,445,32,High,Cloudy
+2024-01-15 09:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,334,38,Medium,Cloudy
+2024-01-15 10:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,378,35,Medium,Cloudy
+2024-01-15 10:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,312,42,Medium,Rain
+2024-01-15 10:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,423,38,Medium,Rain
+2024-01-15 10:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,356,40,Medium,Rain
+2024-01-15 10:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,267,45,Low,Rain
+2024-01-15 11:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,298,42,Medium,Rain
+2024-01-15 11:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,256,48,Low,Rain
+2024-01-15 11:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,334,45,Medium,Rain
+2024-01-15 11:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,289,50,Low,Cloudy
+2024-01-15 11:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,223,52,Low,Cloudy
+2024-01-15 12:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,412,38,Medium,Cloudy
+2024-01-15 12:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,378,40,Medium,Clear
+2024-01-15 12:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,456,42,Medium,Clear
+2024-01-15 12:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,401,45,Medium,Clear
+2024-01-15 12:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,312,48,Low,Clear
+2024-01-15 13:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,356,45,Medium,Clear
+2024-01-15 13:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,323,48,Low,Clear
+2024-01-15 13:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,398,50,Low,Clear
+2024-01-15 13:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,345,52,Low,Clear
+2024-01-15 13:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,278,55,Low,Clear
+2024-01-15 14:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,445,42,Medium,Clear
+2024-01-15 14:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,389,45,Medium,Clear
+2024-01-15 14:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,478,48,Medium,Clear
+2024-01-15 14:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,423,50,Low,Clear
+2024-01-15 14:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,334,52,Low,Clear
+2024-01-15 15:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,534,35,Medium,Clear
+2024-01-15 15:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,467,38,Medium,Clear
+2024-01-15 15:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,589,40,Medium,Clear
+2024-01-15 15:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,512,42,Medium,Clear
+2024-01-15 15:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,401,45,Medium,Clear
+2024-01-15 16:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,623,28,High,Clear
+2024-01-15 16:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,556,30,High,Clear
+2024-01-15 16:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,678,25,Critical,Clear
+2024-01-15 16:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,601,28,High,Clear
+2024-01-15 16:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,489,32,High,Clear
+2024-01-15 17:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,734,20,Critical,Clear
+2024-01-15 17:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,645,22,Critical,Clear
+2024-01-15 17:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,756,18,Critical,Cloudy
+2024-01-15 17:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,689,20,Critical,Cloudy
+2024-01-15 17:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,567,25,High,Cloudy
+2024-01-15 18:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,678,22,Critical,Cloudy
+2024-01-15 18:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,612,25,Critical,Cloudy
+2024-01-15 18:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,701,20,Critical,Cloudy
+2024-01-15 18:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,634,22,Critical,Cloudy
+2024-01-15 18:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,534,28,High,Cloudy
+2024-01-15 19:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,489,30,High,Clear
+2024-01-15 19:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,445,32,High,Clear
+2024-01-15 19:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,534,28,High,Clear
+2024-01-15 19:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,478,30,High,Clear
+2024-01-15 19:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,401,35,Medium,Clear
+2024-01-15 20:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,334,42,Medium,Clear
+2024-01-15 20:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,298,45,Medium,Clear
+2024-01-15 20:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,378,48,Medium,Clear
+2024-01-15 20:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,323,50,Low,Clear
+2024-01-15 20:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,267,52,Low,Clear
+2024-01-15 21:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,223,55,Low,Clear
+2024-01-15 21:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,198,58,Low,Clear
+2024-01-15 21:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,245,60,Low,Clear
+2024-01-15 21:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,212,62,Low,Clear
+2024-01-15 21:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,178,65,Low,Clear
+2024-01-15 22:00:00,Uhuru Highway-Haile Selassie,J001,-1.2921,36.8219,156,62,Low,Clear
+2024-01-15 22:00:00,Mombasa Road-Bunyala,J002,-1.3138,36.8559,134,65,Low,Clear
+2024-01-15 22:00:00,Thika Road-Muthaiga,J003,-1.2514,36.8593,167,68,Low,Clear
+2024-01-15 22:00:00,Waiyaki Way-Westlands,J004,-1.2674,36.8059,145,70,Low,Clear
+2024-01-15 22:00:00,Jogoo Road-Makadara,J005,-1.2833,36.8472,123,72,Low,Clear
